@@ -1,0 +1,11 @@
+package com.nexwave.hr;
+
+public class HR {
+
+	public void manageEmployees() {
+		
+		// create employee instances...traing & getWork
+		
+	}
+
+}

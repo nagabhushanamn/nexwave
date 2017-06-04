@@ -1,0 +1,17 @@
+package com.nexwave.hr;
+
+public class HR {
+
+	public void manageEmployees() {
+
+		// create employees
+		
+		new Employee();
+
+		// doTrain
+
+		// doListen & get work..
+
+	}
+
+}

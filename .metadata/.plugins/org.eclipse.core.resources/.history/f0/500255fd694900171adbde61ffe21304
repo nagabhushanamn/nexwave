@@ -1,0 +1,21 @@
+package com;
+
+import p1.B;
+import p1.C;
+
+public class App {
+
+	public static void main(String[] args) {
+
+		// A a = new A();
+		// a.aMethod();
+
+		// B b = new B();
+		// b.bMethod();
+
+		C c = new C();
+		c.cMethod();
+
+	}
+
+}

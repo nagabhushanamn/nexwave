@@ -1,0 +1,10 @@
+
+// package dec
+package com.nexwave.emp;
+
+// import statements
+
+// public type
+public class Employee {
+
+}

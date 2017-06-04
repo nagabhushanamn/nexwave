@@ -1,0 +1,122 @@
+
+
+
+Java_Syntax
+---------------
+
+--------------------------------------------------------------------
+
+1. project
+
+	|
+	|
+	|---p1 ( .java / .class )
+	|
+	|---p2
+
+	
+--------------------------------------------------------------------
+
+2. Java File
+
+
+    PublicType.java
+	---------------------------------------
+	|
+	| // package dec ( 1 )
+	|
+	| // import statements ( n )
+	|
+	| // public type ( class | interface | enum | Annotation ) ( 1 )  => must
+	|
+	| // default types ( n )
+	|
+	|
+	|
+	|---------------------------------------
+	
+
+--------------------------------------------------------------------
+
+3.  package dec
+
+
+	why we need ?
+	
+	
+    => to avoid type-name collisions
+    => for better maintainance
+
+
+	syntax
+	
+	package root;
+	        root.sub1.sub2;
+	        
+	        
+	recommended guideline to write package dec
+	
+	e.g
+	
+		
+		
+		public class Employee{}
+		
+		
+		
+		package c-type.c-name.p-name.m-name;
+		
+		e.g
+		
+		
+		package org.wissen.em.emp;
+		
+		
+		          
+--------------------------------------------------------------------
+
+
+4.  import statement
+
+
+	proj
+	
+		p1 => A.java , B.java
+		p2 => C.java , D.java
+		   => p21 => E.java
+		p3 => E.java   
+
+
+	e.g
+	
+		package p1;
+		
+		import p2.C;
+		import p2.D;
+		
+		import p2.*;
+		import p2.p21.*;
+		import p3.*;
+		
+		
+		public class A{
+			B b;
+			C c;
+			p3.E e;
+		}
+
+          
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+	

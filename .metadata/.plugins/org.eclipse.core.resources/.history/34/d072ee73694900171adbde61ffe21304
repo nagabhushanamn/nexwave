@@ -1,0 +1,16 @@
+package com;
+
+import p1.B;
+
+public class App {
+
+	public static void main(String[] args) {
+
+		// A a = new A();
+		// a.aMethod();
+
+		B b = new B();
+		b.bMethod();
+	}
+
+}

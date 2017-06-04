@@ -29,3 +29,167 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jface.text 2 0 2017-06-05 00:21:00.844
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.equinox.security 1 0 2017-06-05 01:03:57.096
+!MESSAGE New keyring password generated. 
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2017-06-05 01:44:40.525
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2017-06-05 02:15:04.642
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2017-06-05 02:31:23.950
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.rcp 4 18 2017-06-05 02:39:12.744
+!MESSAGE Failed to resolve selection in ‘=Java_Abs_Encap/src<p2{E.java’ at offset 97.
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromTypeRootInEditor(JavaElementSelections.java:164)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:119)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:102)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.handleSelectionInEditor(JavaElementSelectionService.java:108)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.access$1(JavaElementSelectionService.java:105)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService$1.run(JavaElementSelectionService.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 4 0 2017-06-05 02:56:15.845
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:303)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:103)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:233)
+	at org.eclipse.egit.ui.internal.staging.StagingView$48.run(StagingView.java:3119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 4 0 2017-06-05 02:56:21.217
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:303)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:103)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:233)
+	at org.eclipse.egit.ui.internal.staging.StagingView$48.run(StagingView.java:3119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 4 0 2017-06-05 02:56:27.236
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:303)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:103)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:233)
+	at org.eclipse.egit.ui.internal.staging.StagingView$48.run(StagingView.java:3119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 4 0 2017-06-05 02:56:57.354
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:303)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:103)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:233)
+	at org.eclipse.egit.ui.internal.staging.StagingView$48.run(StagingView.java:3119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

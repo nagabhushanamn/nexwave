@@ -1,0 +1,14 @@
+package com;
+
+import p1.A;
+
+public class App {
+
+	public static void main(String[] args) {
+
+		A a = new A();
+		a.aMethod();
+
+	}
+
+}

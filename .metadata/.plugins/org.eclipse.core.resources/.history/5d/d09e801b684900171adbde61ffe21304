@@ -1,0 +1,49 @@
+
+
+---------------------------------------------------------
+
+  a. Abstraction/Interface/Front-End
+  
+  	 why we need ?
+  	 
+  	 --> easy to use/learn by dependent
+  	 --> for loose-coupling b/w dependent & dependency
+  	 --> to expose only essential features to other
+  
+  b. Encapsulation/Implementation/back-End
+  
+     -->  is implementation of what abstracted
+     
+      why we need ?
+      
+      	-> to hide complexity
+      	-> for security reasons
+      	
+  ---------------------------------------------------------
+  
+  
+  
+  How to implement Abs & Encap in java-lang ?
+  
+  
+  --> using access-modifiers
+  --> using packages
+  --> using accessor-methods ( set/get )
+  --> using class & Interfaces
+  --> using OO design patterns
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      	
