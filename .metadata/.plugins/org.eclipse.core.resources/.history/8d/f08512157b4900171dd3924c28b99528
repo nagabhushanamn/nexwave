@@ -1,0 +1,36 @@
+package com.shop.bill;
+
+import com.shop.pm.PriceMatrixImpln_v1;
+
+/*
+ * 
+ * design & performance issues
+ * ---------------------------
+ * 
+ * --> too many duplicate dependencies created & destructed on every method-call
+ * 
+ * --> tight-coupling b/w dependent & dependency
+ * 
+ * --> unit-testing not possible
+ * 
+ */
+
+public class BillingImpl {
+
+	private PriceMatrixImpln_v1 priceMatrix = null;
+
+	public double getTotalPrice(String[] cart) {
+
+		priceMatrix = new PriceMatrixImpln_v1();
+
+		double total = 0.0;
+
+		for (String item : cart) {
+			total += priceMatrix.getPrice(item);
+		}
+
+		return total;
+
+	}
+
+}

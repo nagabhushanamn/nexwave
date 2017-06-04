@@ -1,0 +1,19 @@
+package com;
+
+import com.car.CarImpl;
+
+public class App {
+
+	public static void main(String[] args) {
+
+		// init
+
+		CarImpl car = new CarImpl();
+
+		// use
+
+		// destory
+
+	}
+
+}

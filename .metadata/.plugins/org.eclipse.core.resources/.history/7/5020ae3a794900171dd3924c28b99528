@@ -1,0 +1,5 @@
+package com.shop.bill;
+
+public class BillingImpl {
+
+}

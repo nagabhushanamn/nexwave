@@ -1,0 +1,22 @@
+package com;
+
+import com.car.CarImpl;
+import com.wheel.CEATWheel;
+
+public class App {
+
+	public static void main(String[] args) {
+
+		// init
+
+		CarImpl car = new CarImpl();
+		car.setWheel(new CEATWheel());
+
+		// use
+		car.move();
+
+		// destory
+
+	}
+
+}

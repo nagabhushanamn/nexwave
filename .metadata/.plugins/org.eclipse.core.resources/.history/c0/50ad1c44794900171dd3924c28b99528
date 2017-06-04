@@ -1,0 +1,9 @@
+package com.shop.bill;
+
+public class BillingImpl {
+
+	public double getTotalPrice(String[] cart) {
+		
+	}
+	
+}

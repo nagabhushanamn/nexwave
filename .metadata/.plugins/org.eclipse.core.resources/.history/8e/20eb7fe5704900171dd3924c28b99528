@@ -1,0 +1,18 @@
+package com.car;
+
+/*
+ *  OO principal :
+ *  
+ *  closed for modification , open for extension
+ * 
+ * 
+ */
+
+public class CarImpl {
+
+	public void move() {
+		wheel.rotate();
+		System.out.println("Car moving....");
+	}
+
+}

@@ -1,0 +1,9 @@
+
+
+  shopIT
+  -------------
+  
+  BillingComp  ==>  getTotalPrice(cart)
+  PriceMatrix  ==> getPrice(item)
+  
+   

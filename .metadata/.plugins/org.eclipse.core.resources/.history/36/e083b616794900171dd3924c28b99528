@@ -1,0 +1,9 @@
+package com.shop.pm;
+
+public class PriceMatrixImpln_v1 {
+	
+	public void getPrice() {
+		
+	}
+
+}

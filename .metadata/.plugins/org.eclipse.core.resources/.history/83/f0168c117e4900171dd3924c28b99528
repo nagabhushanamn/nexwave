@@ -1,0 +1,25 @@
+package com.shop;
+
+import com.shop.bill.BillingImpl;
+import com.shop.pm.PriceMatrix;
+import com.shop.pm.PriceMatrixImpln_v1;
+
+public class App {
+
+	public static void main(String[] args) {
+
+		// Init - 'Some-One'
+		PriceMatrix priceMatrixV1=new PriceMatrixImpln_v1();
+		BillingImpl billComp = new BillingImpl();
+
+		// Use
+
+		String[] cart = { "234345", "45543" };
+		double totalPrice = billComp.getTotalPrice(cart);
+
+		System.out.println("Total : " + totalPrice);
+		System.out.println("Happy shopping");
+
+	}
+
+}

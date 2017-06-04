@@ -1,0 +1,17 @@
+package com.shop.bill;
+
+import com.shop.pm.PriceMatrixImpln_v1;
+
+public class BillingImpl {
+
+	private PriceMatrixImpln_v1 priceMatrix;
+
+	public double getTotalPrice(String[] cart) {
+
+		double total = 0.0;
+
+		return total;
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.wheel;
+
+public class CEATWheel {
+
+	public void rotate() {
+		System.out.println("MRFWheel rotating...");
+	}
+
+}
