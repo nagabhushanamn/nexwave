@@ -332,4 +332,30 @@ OO concepts
 
 
 
+java - Naming Conventions
+--------------------------
+
+
+  keywords         ==> lower-case
+  
+  package-names    ==> lower-case
+  
+  Type-Names       ==> pascal-case  e.g A___B___C___
+  
+  var/method names ==> camel-case  e.g _____A____B____
+  
+  constant-names   ==> upper-case
+
+
+
+
+
+  
+
+
+
+
+
+
+
 	
