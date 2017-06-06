@@ -1,0 +1,51 @@
+
+
+
+ Java Tech
+ 
+  1. Java SE
+  
+	  -> stand-alone appln
+	  -> N/W ing appln
+
+  2. Java EE
+
+      -> Web Appln
+      -> Enterprise edition 
+
+  --------------------------------------
+
+
+   java-style ==> component & container style
+   
+   
+   Java SE
+   
+     1. application           : client-JRE
+	 2. applet                : browser with JRE  
+   
+   
+   Java EE
+   
+	 1. web comps ( servelt,JSP) : Web-container ( e.g Tomcat,Jetty,etc... )
+	 2. EJB/Buisness components  : EJB Container ( e.g Tomee , Glassfish , any JEE APP Server , etc.. )
+
+	 
+   
+   ----------------------------------------------------
+   
+   
+   java-lang
+   
+   
+	-> OOP
+    -> MT		
+	-> data-structures
+   
+   ----------------------------------------------------
+   
+   
+   
+
+
+  
