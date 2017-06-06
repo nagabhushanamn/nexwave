@@ -905,3 +905,156 @@ org.eclipse.recommenders.utils.Logs$LogTraceException
 	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
 	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
 	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2017-06-06 22:14:20.310
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.rcp 4 18 2017-06-06 22:47:37.248
+!MESSAGE Failed to resolve selection in ‘=Java_variables_methods/src<com{Var_Args_Learn.java’ at offset 175.
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromTypeRootInEditor(JavaElementSelections.java:164)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:119)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:102)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.handleSelectionInEditor(JavaElementSelectionService.java:108)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.access$1(JavaElementSelectionService.java:105)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService$1.run(JavaElementSelectionService.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2017-06-06 23:05:44.009
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.rcp 4 18 2017-06-06 23:20:55.479
+!MESSAGE Failed to resolve selection in ‘=OO_concepts/src<com{AnonmousInnerClass_Learn.java’ at offset 1,449.
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromTypeRootInEditor(JavaElementSelections.java:164)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:119)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:102)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.handleSelectionInEditor(JavaElementSelectionService.java:108)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.access$1(JavaElementSelectionService.java:105)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService$1.run(JavaElementSelectionService.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2017-06-07 00:02:54.657
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.rcp 4 18 2017-06-07 00:17:20.358
+!MESSAGE Failed to resolve selection in ‘=ExceptionHandling/src<com{Ex2.java’ at offset 509.
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromTypeRootInEditor(JavaElementSelections.java:164)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:119)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:102)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.handleSelectionInEditor(JavaElementSelectionService.java:108)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.access$1(JavaElementSelectionService.java:105)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService$1.run(JavaElementSelectionService.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)

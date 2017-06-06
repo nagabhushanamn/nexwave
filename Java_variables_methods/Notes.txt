@@ -1,0 +1,46 @@
+
+
+
+  variables
+  ---------------
+  
+  by Type
+  ---------------------
+  
+    1. simple 
+    
+    	a. singned
+    	
+    		1. integral
+    		
+    			a. byte ( 8 )
+    			b. short( 16 )
+    			c. int ( 32 )
+    			d. long ( 64 )
+    		
+    		2. real
+    		
+    			a. float ( 32 )
+    			b. double ( 64 )
+    	
+    	b.un-signed
+    	
+    			a. char ( 16 )
+    			
+    			
+        c. boolean ( 1 )			
+    
+    2. complex
+    
+    
+    ---------------------------------------------------------------------
+    
+    
+    by scope
+    
+    	-> class variables
+    	-> instance variables
+    	-> Local variables
+    
+    
+    

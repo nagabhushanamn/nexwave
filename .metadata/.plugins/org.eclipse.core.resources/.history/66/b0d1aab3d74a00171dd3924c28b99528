@@ -1,0 +1,15 @@
+package com;
+
+class Mobile {
+
+}
+
+class Person {
+	Mobile mobile;
+}
+
+public class ReferenceTypes_Learn {
+	public static void main(String[] args) {
+
+	}
+}

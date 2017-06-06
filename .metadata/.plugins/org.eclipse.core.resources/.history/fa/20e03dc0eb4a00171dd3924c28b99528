@@ -1,0 +1,40 @@
+package com;
+
+//--------------------------------------------------
+
+// Data-layer  ==> persisting
+
+class ProductDAO {
+	public String find(int id) {
+		int v = 1;
+		if (v == 1)
+			return "laptop";
+	}
+}
+
+// Service-layer ==> processing
+class ProductService {
+	public String service1(int id) {
+		return new ProductDAO().find(id);
+	}
+}
+
+// Web-layer ==> interact with HTTP class
+class ProductController {
+	public String get(int id) {
+		return new ProductService().service1(id);
+	}
+}
+
+// ---------------------------------------------------
+
+public class Ex3 {
+
+	public static void main(String[] args) {
+
+		ProductController controller = new ProductController();
+		System.out.println(controller.get(123));
+
+	}
+
+}

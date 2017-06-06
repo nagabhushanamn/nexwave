@@ -1,0 +1,25 @@
+package com;
+
+
+//--------------------------------------------------
+
+
+// Data-layer  ==> persisting
+
+// Service-layer ==> processing
+
+// Web-layer     ==> interact with HTTP class
+
+
+//---------------------------------------------------
+
+
+public class Ex3 {
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}

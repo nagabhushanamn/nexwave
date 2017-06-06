@@ -1,0 +1,13 @@
+package com;
+
+class Abc {
+
+}
+
+public class Var_Use_In_Methods {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package com;
+
+class TxrService {
+	public void doTxr(String from, String to, double amount) {
+
+		// load from & to accounst from DB
+
+		// if from-account enough balance
+		double fromAccBalance = 1000.00;
+
+		// debit & credit
+
+		// update both accounts
+
+	}
+}
+
+public class Ex {
+
+	public static void main(String[] args) {
+
+	}
+
+}

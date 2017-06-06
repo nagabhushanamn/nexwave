@@ -1,0 +1,15 @@
+package com;
+
+@FunctionalInterface
+interface Wheel {
+	void rotate();
+	void rotate1();
+}
+
+public class AnonmousInnerClass_Learn {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package com;
+
+
+/*
+ * 
+ *  Inner Classes
+ *  ---------------
+ *  
+ *  why we inner-classes ?
+ *  
+ *  
+ *  
+ * 
+ */
+
+public class InnerClass_Learn {
+
+}

@@ -1,0 +1,9 @@
+package com;
+
+public class Var_Args_Learn {
+	
+	public static void main(String[] args) {
+		display();
+	}
+
+}

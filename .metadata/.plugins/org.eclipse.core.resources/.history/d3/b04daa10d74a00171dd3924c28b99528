@@ -1,0 +1,22 @@
+package com;
+
+public class Primitives_Learn {
+
+	public static void main(String[] args) {
+		//
+		// int a = 017;
+		// System.out.println(a);
+
+		// long longVar=1212121212121212L;
+
+		// float floatVar=12.12F;
+		
+		//-----------------------------------------
+		
+		char ch='A';
+		
+		System.out.println();
+
+	}
+
+}

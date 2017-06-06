@@ -1,0 +1,14 @@
+package com;
+
+public class Final_Keyword {
+
+	public static void main(String[] args) {
+
+		// final int C_LOC = 12;
+		//
+		// final int R_LOC;
+		// R_LOC = 13 + 12;
+
+	}
+
+}

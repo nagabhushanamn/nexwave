@@ -1,0 +1,25 @@
+package com;
+
+class A {
+
+	final int C_INS = 100;
+	final int R_INS;
+
+	public A(int v) {
+		this.R_INS = v;
+	}
+
+}
+
+public class Final_Keyword {
+
+	public static void main(String[] args) {
+
+		// final int C_LOC = 12;
+		//
+		// final int R_LOC;
+		// R_LOC = 13 + 12;
+
+	}
+
+}

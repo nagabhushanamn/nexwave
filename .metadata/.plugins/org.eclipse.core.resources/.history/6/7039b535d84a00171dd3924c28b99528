@@ -1,0 +1,31 @@
+package com;
+
+class Employee {
+	String name;
+
+	public Employee(String name) {
+		super();
+		this.name = name;
+	}
+
+	public void sayHello() {
+		int count = 0; // local
+		count++;
+		System.out.println("Hello.." + count);
+	}
+}
+
+public class Variable_Scope_Learn {
+
+	public static void main(String[] args) {
+
+		Employee employee1 = new Employee("Nag");
+		Employee employee2 = new Employee("Praveen");
+
+		employee1.sayHello();
+
+		employee2.sayHello();
+		employee2.sayHello();
+	}
+
+}

@@ -1,0 +1,9 @@
+package com;
+
+public class Method_Learn {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

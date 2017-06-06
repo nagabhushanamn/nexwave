@@ -1,0 +1,12 @@
+package com;
+
+class Employee {
+	String name;
+	public void sayHello() {
+		System.out.println("Hello..");
+	}
+}
+
+public class Variable_Scope_Learn {
+
+}

@@ -1,0 +1,23 @@
+package com;
+
+class Xyz {
+
+	public static void sta() {
+		System.out.println("Xyz:sta()");
+	}
+
+	public void ins() {
+		System.out.println("Xyz:ins()");
+	}
+
+}
+
+public class Static_Block_Learn {
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}

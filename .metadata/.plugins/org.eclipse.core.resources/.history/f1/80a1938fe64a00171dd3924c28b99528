@@ -1,0 +1,17 @@
+package com;
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("A");
+		
+		try{
+			System.out.println("B");
+			int ari=1/0;
+			System.out.println("C");
+		}
+		
+	}
+	
+}

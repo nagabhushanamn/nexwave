@@ -1,0 +1,12 @@
+package com;
+
+public class Primitives_Learn {
+
+	public static void main(String[] args) {
+
+		int a = 017;
+		System.out.println(a);
+
+	}
+
+}

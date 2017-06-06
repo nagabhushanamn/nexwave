@@ -1,0 +1,36 @@
+package com;
+
+class MyResource {
+	public void init() {
+		System.out.println("init()");
+	}
+
+	public void use() {
+		System.out.println("use()");
+		// throw new RuntimeException("ooops");
+	}
+
+	public void close() {
+		System.out.println("close()");
+	}
+}
+
+public class Ex2 {
+
+	public static void main(String[] args) {
+
+		MyResource myResource = new MyResource();
+
+		try {
+			myResource.init();
+			myResource.use();
+			return;
+			myResource.close();
+		} catch (RuntimeException e) {
+			e.printStackTrace();
+			myResource.close();
+		}
+
+	}
+
+}
