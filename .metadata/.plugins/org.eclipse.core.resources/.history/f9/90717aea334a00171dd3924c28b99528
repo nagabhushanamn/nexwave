@@ -1,0 +1,5 @@
+package com.myutil;
+
+public class ArrayList implements List {
+
+}

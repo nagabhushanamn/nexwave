@@ -1,0 +1,22 @@
+package com;
+
+/*
+ * 
+ * imp notes about strings
+ * ----------------------------
+ * 
+ *  --> can create with/without 'new' operator
+ * 
+ */
+
+public class String_Learn {
+	public static void main(String[] args) {
+
+		String s1 = "nexave";
+		String s2 = "nexave";
+		
+		System.out.println(s1==s2);
+
+	}
+
+}

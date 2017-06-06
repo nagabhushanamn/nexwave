@@ -1,0 +1,17 @@
+package com;
+
+/*
+ * 
+ * imp notes about strings
+ * ----------------------------
+ * 
+ *  --> can create with/without 'new' operator
+ * 
+ */
+
+public class String_Learn {
+	public static void main(String[] args) {
+
+	}
+
+}

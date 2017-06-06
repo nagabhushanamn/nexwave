@@ -1,0 +1,10 @@
+package com.emp;
+
+public class JavaEmployee {
+
+	public int id;
+	public String name;
+	public double salary;
+	public String javaSkill;
+
+}

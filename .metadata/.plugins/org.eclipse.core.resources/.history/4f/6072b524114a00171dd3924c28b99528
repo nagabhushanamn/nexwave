@@ -1,0 +1,11 @@
+package com.god;
+
+import com.live.Human;
+
+public class God {
+	
+	public void manageHuman(Human human) {
+		
+	}
+
+}

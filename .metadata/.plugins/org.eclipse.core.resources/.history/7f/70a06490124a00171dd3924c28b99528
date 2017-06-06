@@ -1,0 +1,9 @@
+package com;
+
+import com.live.LivingThing;
+
+public class Robot extends LivingThing{
+
+	
+	
+}

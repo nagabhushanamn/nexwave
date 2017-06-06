@@ -1,0 +1,28 @@
+package com;
+
+class A {
+	public A() {
+		super();
+		System.out.println("im A");
+	}
+}
+
+class B extends A {
+	public B() {
+		super();
+		System.out.println("Im B");
+	}
+}
+
+class C extends B {
+	public C() {
+		super();
+		System.out.println("im C");
+	}
+}
+
+public class Constructor_Exe_Flow {
+	public static void main(String[] args) {
+		C c = new C();
+	}
+}

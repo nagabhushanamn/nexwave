@@ -1,0 +1,9 @@
+package com.pm;
+
+public class ProductManager {
+	
+	public void manageProducts() {
+		
+	}
+
+}

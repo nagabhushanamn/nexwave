@@ -1,0 +1,14 @@
+package com.god;
+
+import com.live.Human;
+
+public class God {
+
+	public void manageHuman(Human human) {
+		human.eat();
+		human.sleep();
+		human.study();
+		human.work();
+	}
+
+}

@@ -1,0 +1,13 @@
+package com;
+
+import com.emp.JavaEmployee;
+
+public class App {
+
+	public static void main(String[] args) {
+
+		JavaEmployee javaEmployee = new JavaEmployee();
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package com;
+
+import com.myutil.ArrayList;
+import com.pm.ProductManager;
+
+public class App {
+
+	public static void main(String[] args) {
+
+		ProductManager pm = new ProductManager();
+		pm.manageProducts(new ArrayList());
+
+	}
+
+}

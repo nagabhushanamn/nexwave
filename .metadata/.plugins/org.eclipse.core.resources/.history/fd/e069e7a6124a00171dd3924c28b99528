@@ -1,0 +1,13 @@
+package com;
+
+import com.live.LivingThing;
+
+public class Robot extends LivingThing{
+
+	@Override
+	public void eat() {
+		System.out.println("Robot-eat()");
+	}
+	
+	
+}

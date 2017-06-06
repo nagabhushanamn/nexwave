@@ -1,0 +1,17 @@
+package com;
+
+class V {
+
+}
+
+class C extends V {
+
+}
+
+class B extends V {
+
+}
+
+public class ReferenceCasting {
+
+}

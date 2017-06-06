@@ -1,0 +1,19 @@
+package com;
+
+import com.god.God;
+import com.live.Animal;
+import com.live.Human;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		
+		God god=new God();
+		
+		Human human=new Human();
+		Animal animal=new Animal();
+		
+	}
+	
+}
