@@ -1,0 +1,12 @@
+package com.proxy;
+
+public class NexWaveProxy implements Nexwave {
+
+	
+	
+	@Override
+	public void getTraining() {
+
+	}
+
+}

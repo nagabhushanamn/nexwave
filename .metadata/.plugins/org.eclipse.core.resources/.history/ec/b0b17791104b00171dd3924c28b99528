@@ -1,0 +1,16 @@
+package com.boss;
+
+public class Boss {
+	// private static Boss boss = new Boss();
+	private static Singleton boss = null;
+
+	private Boss() {
+	}
+
+	public static synchronized Singleton getInstance() {
+		if (boss == null) {
+			boss = new Singleton();
+		}
+		return boss;
+	}
+}

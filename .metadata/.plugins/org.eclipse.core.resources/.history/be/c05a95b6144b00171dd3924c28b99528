@@ -1,0 +1,7 @@
+package com.observer;
+
+public interface DoorListener {
+	void start();
+
+	void stop();
+}

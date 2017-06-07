@@ -1,0 +1,54 @@
+
+
+ OO Design Patterns
+ -------------------
+ 
+ solutions to re-occuring OO-problems
+ 
+ 
+ 
+   1. Creational Pattern
+   
+   	--- Abstract Factory
+	--- Builder
+	--- Factory Method
+	--- Prototype
+	--- Singleton
+	
+   2. Structural Patterns
+   
+   	---	Adapter
+	--- Bridge
+	--- Composite
+	--- Decorator
+	--- Façade
+	--- Flyweight
+	--- Proxy
+   
+   3. Behavioral Patterns
+   
+   	--- Command
+	--- Interpreter
+	--- Iterator
+	--- Mediator
+	--- Memento
+	--- Observer
+	--- State
+	--- Strategy
+	--- Template Method
+	--- Visitor
+   
+   
+   
+   JEE Patterns
+   
+    --- MVC
+	--- Business Delegate
+	--- Composite Entity
+	--- Data Access Object
+	--- Front Controller
+	--- Intercepting Filter
+	--- Service Locator
+	--- Transfer Object
+	
+	

@@ -1,0 +1,9 @@
+package com.observer;
+
+public class Door {
+
+	public void open() {
+		System.out.println("Door opened...");
+	}
+
+}

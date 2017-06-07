@@ -1,0 +1,6 @@
+package com.observer;
+
+public class DoorEvent {
+	private int floor;
+	private int doorNum;
+}

@@ -1,0 +1,14 @@
+package com.proxy;
+
+public class ClassRoom {
+
+	public void getTraining() {
+
+		// in-Log
+
+		System.out.println("Training...");
+
+		// out-Log
+	}
+
+}

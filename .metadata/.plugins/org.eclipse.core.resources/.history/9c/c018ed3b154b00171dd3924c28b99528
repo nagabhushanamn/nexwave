@@ -1,0 +1,17 @@
+package com.observer;
+
+public class Light implements DoorListener{
+
+	@Override
+	public void start(DoorEvent event) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void stop(DoorEvent event) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

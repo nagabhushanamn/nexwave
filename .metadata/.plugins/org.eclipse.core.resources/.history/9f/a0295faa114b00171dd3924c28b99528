@@ -1,0 +1,16 @@
+package com.proxy;
+
+public class ClassRoom {
+
+	public void getJavaTraining() {
+
+		// in-Log
+		// authenticate
+		// verify you qualification
+
+		System.out.println("Training...");
+
+		// out-Log
+	}
+
+}

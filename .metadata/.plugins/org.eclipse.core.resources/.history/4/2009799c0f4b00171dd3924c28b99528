@@ -1,0 +1,13 @@
+package com.boss;
+
+public class Boss {
+	// private static Boss boss = new Boss();
+	private static Boss boss = null;
+
+	private Boss() {
+	}
+
+	public static Boss getInstance() {
+		return boss;
+	}
+}

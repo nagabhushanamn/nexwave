@@ -1,0 +1,9 @@
+package com.proxy;
+
+public class ClassRoom {
+
+	public void getTraining() {
+		System.out.println("Teaching...");
+	}
+
+}

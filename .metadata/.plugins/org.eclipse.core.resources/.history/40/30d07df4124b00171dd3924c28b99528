@@ -1,0 +1,9 @@
+package com.proxy;
+
+public interface Nexwave {
+
+	public void getJavaTraining();
+
+	public void getJSTraining();
+
+}

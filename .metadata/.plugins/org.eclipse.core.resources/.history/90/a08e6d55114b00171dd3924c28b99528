@@ -1,0 +1,9 @@
+package com.proxy;
+
+public class Participant {
+
+	public void doLearn() {
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.proxy;
+
+public class Participant {
+
+	public void doLearn() {
+		ClassRoomImpl classRoom = new ClassRoomImpl();
+
+		classRoom.getJavaTraining();
+		System.out.println("Learning...Java");
+
+		classRoom.getJSTraining();
+		System.out.println("Learning...JS");
+
+	}
+
+}
