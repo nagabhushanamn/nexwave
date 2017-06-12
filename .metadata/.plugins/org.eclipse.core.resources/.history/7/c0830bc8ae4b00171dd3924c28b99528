@@ -1,0 +1,18 @@
+package com;
+
+public class Customer implements CustomerInter{
+
+	@Override
+	public void withDraw() {
+		System.out.println("Cust: Wihhdraw");
+		
+	}
+
+	@Override
+	public void deposit() {
+		System.out.println("-- Cust: Deposit");
+		
+	}
+
+	
+}

@@ -1,0 +1,20 @@
+package com.multi.level2;
+
+class Xyz {
+
+	public synchronized static void sta() {
+
+	}
+
+}
+
+public class Sync_Recap {
+	public static void main(String[] args) {
+
+		Thread thread = new Thread(() -> {
+			Xyz.sta();
+		});
+
+	}
+
+}

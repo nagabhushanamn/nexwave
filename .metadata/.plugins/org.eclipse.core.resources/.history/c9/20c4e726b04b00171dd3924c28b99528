@@ -1,0 +1,11 @@
+package com;
+
+public class BankManager implements MamangerInter {
+
+	@Override
+	public void lockerAccess() {
+		System.out.println("-- Locker access Given");
+
+	}
+
+}

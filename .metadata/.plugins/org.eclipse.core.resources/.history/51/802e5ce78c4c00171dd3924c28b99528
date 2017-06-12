@@ -1,0 +1,32 @@
+package com;
+
+import java.io.File;
+
+public class FileDemo {
+
+	public static void main(String[] args) {
+
+		try {
+			
+			File f=new File("d:/FO/Praveentest.txt");
+			if(!(f.exists())){
+				f.createNewFile();
+			}
+			
+			System.out.println("Length is "+f.length());
+			System.out.println(f.canRead());
+			System.out.println(f.canWrite());
+			
+			 f.mkdir();
+			
+			
+			
+			
+			
+		} catch (Exception e) {
+			System.out.println("Failed Due to "+e);
+		}
+		
+	}
+
+}

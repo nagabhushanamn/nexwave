@@ -1,0 +1,13 @@
+package com.multi;
+
+class Work {
+	
+}
+
+public class Multi_Thread_Appln {
+
+	public static void main(String[] args) {
+
+	}
+
+}

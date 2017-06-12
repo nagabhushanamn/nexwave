@@ -1,0 +1,18 @@
+package com;
+
+public class Online extends ResultsOperations{
+	
+	public static void main(String[] args) {
+		
+		
+		//Online ol=new Online();
+		//ol.
+		
+		ResultsOperations ro=new Online();
+		
+		
+		
+		
+	}
+
+}

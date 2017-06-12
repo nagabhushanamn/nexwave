@@ -1,0 +1,16 @@
+package com.multi.level2;
+
+class Xyz {
+
+	public static void sta() {
+
+	}
+
+}
+
+public class Sync_Recap {
+	public static void main(String[] args) {
+
+	}
+
+}

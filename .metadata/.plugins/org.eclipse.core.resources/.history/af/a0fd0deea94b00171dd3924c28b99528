@@ -1,0 +1,50 @@
+package com;
+
+public class Demo {
+	
+	
+	/*
+	 * Wraper classes 
+	 * ----------------
+	 * PT		WT
+	 * -----------------
+	 * int		Integer
+	 * short	Short
+	 * long		Long
+	 * double	Double
+	 * float	Float
+	 * char		Character
+	 * boolean	Boolean
+	 * byte		Byte
+	 * 
+	 * 
+	 * 
+	 *
+	 */
+	
+	
+	
+	/*int x=10;
+	Integer i=new Integer(x);
+	Integer i2=(Integer)x;
+	//int y=(int)i;
+*/	
+	
+	int x;
+	Integer i1=new Integer(100);
+	x=i1;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

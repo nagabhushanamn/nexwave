@@ -1,0 +1,19 @@
+package com.multi;
+
+public class Demo {
+	public static void main(String[] args) {
+		try {
+			method();
+		} catch (NumberFormatException e) {
+			// TODO: handle exception
+		} catch (RuntimeException e) {
+			// TODO: handle exception
+		}
+	}
+
+	private static void method() {
+		String s = "5";
+		int i = Integer.parseInt(s);
+		int k = 12;
+	}
+}

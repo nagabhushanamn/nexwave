@@ -1,0 +1,21 @@
+package com;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
+public class SerDemo {
+	public static void main(String[] args) {
+
+		try {
+
+			FileOutputStream fos=new FileOutputStream("d:/FO/ser.txt");
+			
+			
+			
+		
+		} catch (Exception e) {
+			System.out.println("Failed due to " + e);
+		}
+
+	}
+}

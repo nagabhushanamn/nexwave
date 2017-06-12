@@ -1,0 +1,25 @@
+package com;
+
+import java.util.Scanner;
+
+public class GC1 {
+
+	public static void main(String[] args) throws Exception {
+
+		Scanner sc = new Scanner(System.in);
+		String clName;
+		System.out.println("Enter a Class");
+		clName = sc.next();
+
+		Class cl = Class.forName(clName);
+
+		//System.out.println("Cl: " + cl);
+		
+		Object obj= cl.newInstance();
+		
+		
+		
+
+	}
+
+}

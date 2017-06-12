@@ -1,0 +1,26 @@
+package com;
+
+public class GC2 {
+
+	public static void main(String[] args) {
+
+		System.out.println("-- GC2 main method");
+
+		Person p1 = new Person();
+		Person p2 = new Person();
+		Person p3 = new Person();
+
+		/*
+		 * for(int i=1;i<=599000;i++){ Person p=new Person(); }
+		 */
+
+		p1 = null;
+
+		p2 = null;
+
+		System.gc();
+		p3 = null;
+
+	}
+
+}

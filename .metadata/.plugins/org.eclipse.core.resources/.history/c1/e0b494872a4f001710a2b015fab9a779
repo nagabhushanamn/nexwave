@@ -1,0 +1,23 @@
+package com.single;
+
+import java.util.Scanner;
+
+/*
+ *  task-1 : get name from k.b and greet him
+ *  task-2 : print nums b/w 1-100
+ * 
+ */
+
+class Task1 {
+	public void dotTask1() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Name ?");
+		String name = sc.nextLine();
+		System.out.println("Hello " + name);
+		sc.close();
+	}
+}
+
+public class SingleThread_Appln {
+
+}

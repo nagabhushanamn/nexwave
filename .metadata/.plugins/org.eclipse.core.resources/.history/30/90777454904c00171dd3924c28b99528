@@ -1,0 +1,10 @@
+package com;
+
+public class SalariedEmployee extends Employee {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 10;
+
+}

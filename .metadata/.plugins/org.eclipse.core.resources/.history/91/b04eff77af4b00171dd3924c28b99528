@@ -1,0 +1,16 @@
+package com;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+	
+		CustomerInter cust=new BankOperations();
+		cust.deposit();
+		cust.withDraw();
+		
+		
+		
+	
+	}
+}

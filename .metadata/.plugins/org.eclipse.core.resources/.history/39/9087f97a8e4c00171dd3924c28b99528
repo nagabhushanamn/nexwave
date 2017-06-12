@@ -1,0 +1,27 @@
+package com;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+
+public class DeSerDemo {
+	public static void main(String[] args) {
+
+		try {
+
+			FileInputStream fis=new FileInputStream("d:/FO/ser.txt");
+			
+			ObjectInputStream ois=new ObjectInputStream(fis);
+			
+			Employee e1= ois.readObject();
+			
+			
+			
+
+		} catch (Exception e) {
+			System.out.println("Failed due to " + e);
+		}
+
+	}
+}

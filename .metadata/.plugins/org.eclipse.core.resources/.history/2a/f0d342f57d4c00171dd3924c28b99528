@@ -1,0 +1,24 @@
+package com;
+
+import java.io.FileWriter;
+
+public class WriterDemo {
+	
+	public static void main(String[] args) {
+		
+		
+		try {
+			
+			FileWriter fw=new FileWriter("d:/FO/xyz.txt");
+			
+			
+			
+			
+		} catch (Exception e) {
+			System.out.println("Failed Due to "+e);
+		}
+		
+		
+	}
+
+}

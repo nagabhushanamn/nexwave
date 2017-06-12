@@ -1,0 +1,9 @@
+package com.multi;
+
+public class Multi_Thread_Appln {
+
+	public static void main(String[] args) {
+
+	}
+
+}

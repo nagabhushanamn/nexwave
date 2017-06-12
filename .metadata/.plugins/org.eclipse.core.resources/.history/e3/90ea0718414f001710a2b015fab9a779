@@ -1,0 +1,27 @@
+package com.multi.level2;
+
+class B {
+
+	void m1() {
+		System.out.println("m1()...");
+	}
+
+	void m2() {
+		System.out.println("m2()...");
+	}
+
+	static void m3() {
+		System.out.println("m3()...");
+	}
+
+}
+
+public class Sync_Block_Ex {
+
+	public static void main(String[] args) {
+
+		B b1 = new B();
+		B b2 = new B();
+
+	}
+}

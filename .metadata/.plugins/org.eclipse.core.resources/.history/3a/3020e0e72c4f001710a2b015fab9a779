@@ -1,0 +1,47 @@
+package com.multi;
+
+//class Work implements Runnable {
+//
+//	@Override
+//	public void run() {
+//		System.out.println("work by " + Thread.currentThread().getName());
+//	}
+//}
+
+class Worker extends Thread {
+
+	public Worker(String string) {
+		super(string);
+	}
+
+	public void run() {
+		System.out.println("work by " + Thread.currentThread().getName());
+	}
+
+}
+
+public class Multi_Thread_Appln {
+
+	public static void main(String[] args) {
+
+		// System.out.println(Thread.currentThread().getName() + "-start");
+		//
+		// Work work = new Work();
+		// Thread thread = new Thread(work, "T1");
+		//
+		// thread.start(); // new-stack
+		//
+		// System.out.println(Thread.currentThread().getName() + "- with other
+		// work");
+
+		// -------------------------------------------------------------
+
+		 System.out.println(Thread.currentThread().getName() + "-start");
+		Worker worker = new Worker("T1");
+		worker.start();
+
+		 System.out.println(Thread.currentThread().getName() + "- with other work");
+
+	}
+
+}

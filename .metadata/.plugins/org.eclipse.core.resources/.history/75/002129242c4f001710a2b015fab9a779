@@ -1,0 +1,21 @@
+package com.multi;
+
+class Work implements Runnable {
+
+	@Override
+	public void run() {
+		System.out.println("work by " + Thread.currentThread().getName());
+	}
+}
+
+public class Multi_Thread_Appln {
+
+	public static void main(String[] args) {
+		
+		Work work=new Work();
+		
+		Thread thread=new Thread(work);
+
+	}
+
+}

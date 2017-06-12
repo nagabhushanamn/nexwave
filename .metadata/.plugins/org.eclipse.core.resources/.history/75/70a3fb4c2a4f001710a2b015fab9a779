@@ -1,0 +1,10 @@
+package com.single;
+
+/*
+ *  task-1 : get name from k.b and greet him
+ * 
+ */
+
+public class SingleThread_Appln {
+
+}

@@ -1,0 +1,11 @@
+package com.multi;
+
+public class Demo {
+	public static void main(String[] args) {
+
+		String s = "5";
+		int i = Integer.parseInt(s);
+		
+		
+	}
+}

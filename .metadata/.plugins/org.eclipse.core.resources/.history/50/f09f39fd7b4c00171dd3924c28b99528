@@ -1,0 +1,34 @@
+package com;
+
+import java.io.FileOutputStream;
+
+public class ByteDemo {
+	
+	public static void main(String[] args) {
+		
+		
+		try {
+			
+			
+			FileOutputStream fos=new FileOutputStream("d:/FO/abc.txt");
+			
+			String s1="Im Praveen";
+			
+			byte[] data=s1.getBytes();
+			
+			fos.write(data);
+			
+			fos.close();
+			
+			System.out.println("--- Data Written to the file..");
+			
+			
+			
+			
+		} catch (Exception e) {
+			System.out.println("Failed due to "+e);
+		}
+		
+	}
+
+}
