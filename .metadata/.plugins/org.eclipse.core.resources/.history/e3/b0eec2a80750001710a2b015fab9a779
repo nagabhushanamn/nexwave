@@ -1,0 +1,23 @@
+package com.multi.level3;
+
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class Executor_Callable_Ex {
+
+	public static void main(String[] args) {
+
+		ExecutorService executorService = Executors.newCachedThreadPool();
+
+		Callable<String> callableTask = () -> {
+			System.out.println("requesting biryani......");
+			Thread.sleep(5000);
+			return "Biryani";
+		};
+
+		executorService.submit(callableTask);
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.multi.level3;
+
+public class Exceutor_Scheduled_Task {
+
+	public static void main(String[] args) {
+
+		Runnable runnable = () -> {
+			System.out.println("Task-start");
+			System.out.println("Task-end");
+		};
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.multi.level2;
+
+public class How_To_Stop_Thread {
+	
+	public static void main(String[] args) {
+		
+		Thread thread=new Thread(()->{});
+		
+	}
+
+}

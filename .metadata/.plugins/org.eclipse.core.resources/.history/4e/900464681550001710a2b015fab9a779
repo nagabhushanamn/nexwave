@@ -1,0 +1,19 @@
+package com.multi.level3;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class Exceutor_Scheduled_Task {
+
+	public static void main(String[] args) {
+
+		Runnable runnable = () -> {
+			System.out.println("Task-start");
+			System.out.println("Task-end");
+		};
+
+		ExecutorService executorService = Executors.newScheduledThreadPool(1);
+
+	}
+
+}

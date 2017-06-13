@@ -1,0 +1,9 @@
+package com.multi.level3;
+
+public class Executor_Ex {
+	
+	Runnable r=()->{System.out.println("im running");};
+	
+	
+
+}

@@ -1,0 +1,9 @@
+package com.multi.level2;
+
+public class Volatile_Keyword_Ex {
+
+	private static volatile int my_int = 0;
+	
+	
+
+}

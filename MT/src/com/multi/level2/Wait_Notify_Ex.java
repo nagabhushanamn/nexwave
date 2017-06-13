@@ -13,7 +13,8 @@ public class Wait_Notify_Ex {
 			synchronized (lock) {
 				if (isFull(buffer)) {
 					try {
-						lock.wait();
+						// lock.wait();
+						lock.wait(1000); // Thread.sleep(1000)
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 					}
@@ -87,6 +88,7 @@ public class Wait_Notify_Ex {
 		producerThread.join();
 
 		System.out.println("Data in the buffer: " + count);
+		
 
 	}
 

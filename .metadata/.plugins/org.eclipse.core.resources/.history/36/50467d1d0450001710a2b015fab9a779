@@ -1,0 +1,29 @@
+package com.multi.level3;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class Executor_Ex {
+
+	public static void main(String[] args) {
+
+		Runnable r = () -> {
+			System.out.println("im running");
+		};
+
+		// ----------------------------------------------
+
+		// Thread thread = new Thread(r);
+		// thread.start();
+
+		// --------------------------------------------
+
+		ExecutorService executorService = Executors.newSingleThreadExecutor();
+		executorService.execute(r);
+		executorService.execute(r);
+		executorService.execute(r);
+		executorService.execute(r);
+
+	}
+
+}
