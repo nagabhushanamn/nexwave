@@ -1476,3 +1476,134 @@ org.eclipse.recommenders.utils.Logs$LogTraceException
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2017-06-14 11:28:24.065
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2017-06-14 12:02:04.309
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_91\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2017-06-14 15:26:10.346
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar
+  [+] C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar
+  [+] C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar
+  [+] C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar
+  [+] C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar
+  [+] C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar
+  [-] C:\Program Files\Java\jre1.8.0_91\lib\ext\jfxrt.jar
+  [-] C:\Program Files\Java\jre1.8.0_91\lib\ext\localedata.jar
+  [-] C:\Program Files\Java\jre1.8.0_91\lib\ext\zipfs.jar
+  [-] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunmscapi.jar
+  [-] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunpkcs11.jar
+  [-] C:\Program Files\Java\jre1.8.0_91\lib\ext\jaccess.jar
+  [-] C:\Program Files\Java\jre1.8.0_91\lib\resources.jar
+  [-] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunjce_provider.jar
+  [-] C:\Program Files\Java\jre1.8.0_91\lib\ext\access-bridge-64.jar
+  [-] C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar
+  [-] C:\Program Files\Java\jre1.8.0_91\lib\ext\sunec.jar
+  [-] C:\Program Files\Java\jre1.8.0_91\lib\ext\cldrdata.jar
+  [-] C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar
+  [-] C:\Program Files\Java\jre1.8.0_91\lib\rt.jar
+  [-] C:\Program Files\Java\jre1.8.0_91\lib\ext\dnsns.jar
+  [-] C:\Program Files\Java\jre1.8.0_91\lib\ext\nashorn.jar
+  [-] C:\Program Files\Java\jre1.8.0_91\lib\jce.jar
+  [-] C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.suggestRebuild(ProjectTypesIndex.java:444)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.rebuildIndex(TypesIndexService.java:120)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.process(TypesIndexService.java:57)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.process(TypesIndexService.java:63)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.elementChanged(TypesIndexService.java:49)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1662)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1652)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1486)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1462)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2074)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2253)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5521)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:105)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter$1.run(WorkbenchRunnableAdapter.java:118)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

@@ -1,0 +1,9 @@
+package my.util;
+
+public class LinkedList {
+
+	private class Node {
+
+	}
+
+}

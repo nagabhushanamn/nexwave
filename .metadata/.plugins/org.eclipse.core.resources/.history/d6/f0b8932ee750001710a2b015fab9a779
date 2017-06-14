@@ -1,0 +1,18 @@
+package com.hashtable;
+
+class Car {
+	private String model;
+	private String year;
+
+	public Car(String model, String year) {
+		super();
+		this.model = model;
+		this.year = year;
+	}
+	
+
+}
+
+public class Ex1 {
+
+}

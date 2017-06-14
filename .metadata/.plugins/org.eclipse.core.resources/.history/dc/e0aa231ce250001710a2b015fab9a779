@@ -1,0 +1,17 @@
+package com.list;
+
+import com.model.Product;
+
+public class List_Products_Ex {
+
+	public static void main(String[] args) {
+
+		Product product1 = new Product(34345456, "Laptop", 87000.00);
+		Product product1 = new Product(34345456, "Apple", 87000.00);
+		Product product1 = new Product(34345456, "Orange", 87000.00);
+		Product product1 = new Product(34345456, "Banana", 87000.00);
+		Product product1 = new Product(34345456, "Grape", 87000.00);
+
+	}
+
+}

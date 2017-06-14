@@ -1,0 +1,22 @@
+package com;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Set_Colln_Demo {
+
+	public static void main(String[] args) {
+		
+		Set<String> set=new TreeSet<>();
+		set.add("B");
+		set.add("E");
+		set.add("D");
+		set.add("A");
+		set.add("B");
+		set.add("C");
+		
+		System.out.println(set);
+		
+	}
+	
+}

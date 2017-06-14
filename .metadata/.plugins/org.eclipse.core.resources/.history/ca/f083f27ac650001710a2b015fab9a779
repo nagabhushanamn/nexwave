@@ -1,0 +1,29 @@
+package com;
+
+class Java {
+}
+
+class JS {
+}
+
+class Trainer {
+
+	Object subject;
+
+	public Object getSubject() {
+		return subject;
+	}
+
+	public void setSubject(Object subject) {
+		this.subject = subject;
+	}
+
+}
+
+public class Why_We_Need_Generics {
+
+	public static void main(String[] args) {
+
+	}
+
+}

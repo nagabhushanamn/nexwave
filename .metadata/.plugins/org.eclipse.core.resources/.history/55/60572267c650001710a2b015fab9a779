@@ -1,0 +1,12 @@
+package com;
+
+
+
+
+public class Why_We_Need_Generics {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

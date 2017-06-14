@@ -1,0 +1,18 @@
+package my.util;
+
+public class LinkedList<E> {
+
+	private class Node {
+		
+		private E data;
+		private Node next;
+
+		public Node(E data) {
+			super();
+			this.data = data;
+		}
+		
+
+	}
+
+}
