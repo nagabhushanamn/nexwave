@@ -100,13 +100,43 @@
 		  
 		        		 	  
       	  	   	  
+       -----------------------------------------------------
        
+       
+       before JDK 1.4
+       
+       Vector   & Hashtable     ==> thread-safe
            
  
       	    
-  
+       in JDK 1.4 >
+       
+       ArrayList,LinkedList  ==> not-thread-safe...
+       
+       
+       
+       //----------------------------------------------------------
+       
+       concurrent-collections
+       
+       1. copy-on-write collections
+       
+       		- CopyOnWriteArrayList 
+       		-
+       2.  Compare-And-Swap or CAS collections
+       
+       3.  concurrent collections using a special lock object 		
+       
+       
+           - ConcurrentHashMap
+           - BlockingQueue
+           
+              
+        
   
  
+ 
+       -------------------------------------------------------------------
  
  
  

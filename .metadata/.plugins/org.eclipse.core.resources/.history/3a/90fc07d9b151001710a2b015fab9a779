@@ -1,0 +1,41 @@
+package com.concurrent;
+
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class BlockingQueue_Ex {
+
+	public static void main(String[] args) {
+
+		BlockingQueue<String> queue = new ArrayBlockingQueue<>(1);
+
+		Runnable readTask = () -> {
+			try {
+				System.out.println(queue.take());
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		};
+		Runnable writeTask = () -> {
+			for (int i = 0; i < 100; i++) {
+				System.out.println("write<<<<");
+				try {
+					queue.put("item-" + i);
+					Thread.sleep(1000);
+				} catch (InterruptedException e1) {
+					e1.printStackTrace();
+				}
+
+			}
+		};
+
+		ExecutorService executorService = Executors.newFixedThreadPool(2);
+		executorService.execute(writeTask);
+		executorService.execute(readTask);
+		executorService.execute(readTask);
+
+	}
+
+}

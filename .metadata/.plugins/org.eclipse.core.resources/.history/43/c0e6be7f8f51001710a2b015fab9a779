@@ -1,0 +1,29 @@
+package com.queue;
+
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+
+		// Queue<String> queue = new LinkedList<>();
+		// queue.add("A");
+		// queue.offer("B");
+
+		// System.out.println(queue.peek());
+		//
+		// while (!queue.isEmpty()) {
+		// System.out.println(queue.poll());
+		// }
+
+		Deque<String> queue = new LinkedList<>();
+		queue.addFirst("A");
+		queue.addLast("B");
+
+		System.out.println(queue.removeLast());
+
+	}
+
+}

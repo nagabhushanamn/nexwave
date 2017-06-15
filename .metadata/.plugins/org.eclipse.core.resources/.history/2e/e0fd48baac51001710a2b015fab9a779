@@ -1,0 +1,15 @@
+package com.concurrent;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Sync_Wrapped_Colln_Ex {
+
+	public static void main(String[] args) {
+
+		List<String> list = Collections.synchronizedList(new ArrayList<>());
+
+	}
+
+}

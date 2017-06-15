@@ -1,0 +1,17 @@
+package com.concurrent;
+
+import java.util.Vector;
+
+public class Vector_vs_ArrayList {
+
+	public static void main(String[] args) {
+
+		testVector(new Vector<>());
+
+	}
+
+	private static void testVector(Vector vector) {
+
+	}
+
+}
