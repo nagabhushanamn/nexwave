@@ -1,0 +1,19 @@
+package com;
+
+//---------------------------------------------------
+
+class Container {
+	public void process(String url) {
+
+	}
+}
+
+// ----------------------------------------------------
+
+public class Container_Components_App {
+
+	public static void main(String[] args) {
+
+	}
+
+}

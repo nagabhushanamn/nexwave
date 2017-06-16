@@ -1,0 +1,14 @@
+package com;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Autoboxing_Unboxing_Ex {
+	
+	public static void main(String[] args) {
+		
+		List<int>  list=new ArrayList<>();
+		
+	}
+
+}

@@ -1,0 +1,33 @@
+package com;
+
+//--------------------------------------------------
+
+class ComponentOne {
+
+	// url: /login
+	public void doLogin() {
+		System.out.println("Login.....");
+	}
+
+	// url: /register
+	public void doRegister() {
+		System.out.println("Register.....");
+	}
+}
+
+// ---------------------------------------------------
+
+class Container {
+	public void process(String url) {
+	}
+}
+
+// ----------------------------------------------------
+
+public class Container_Components_App {
+
+	public static void main(String[] args) {
+
+	}
+
+}

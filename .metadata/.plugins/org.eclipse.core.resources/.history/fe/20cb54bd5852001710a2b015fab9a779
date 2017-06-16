@@ -1,0 +1,41 @@
+package com;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Target;
+
+//--------------------------------------------------
+
+class ComponentOne {
+
+	// url: /login
+	public void doLogin() {
+		System.out.println("Login.....");
+	}
+
+	// url: /register
+	public void doRegister() {
+		System.out.println("Register.....");
+	}
+}
+
+// ---------------------------------------------------
+
+@Target(value = { ElementType.TYPE, ElementType.METHOD })
+@interface RequestMapping {
+	String url();
+}
+
+class Container {
+	public void process(String url) {
+	}
+}
+
+// ----------------------------------------------------
+
+public class Container_Components_App {
+
+	public static void main(String[] args) {
+
+	}
+
+}

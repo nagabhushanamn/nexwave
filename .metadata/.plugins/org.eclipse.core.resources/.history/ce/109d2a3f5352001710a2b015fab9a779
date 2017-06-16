@@ -1,0 +1,31 @@
+package com;
+
+import java.util.ArrayList;
+import java.util.List;
+
+class Super {
+	void abc() {
+
+	}
+}
+
+class Sub extends Super {
+
+	@Override
+	void abc() {
+
+	}
+
+	@SuppressWarnings("raw")	
+	public void collnMethod() {
+		List list = new ArrayList();
+	}
+}
+
+public class Annotation_Demo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

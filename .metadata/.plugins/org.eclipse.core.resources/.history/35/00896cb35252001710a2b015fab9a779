@@ -1,0 +1,23 @@
+package com;
+
+
+class Super{
+	void abc(){
+		
+	}
+}
+class Sub extends Super{
+	
+	// override
+	void abc(){
+		
+	}
+}
+
+public class Annotation_Demo {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

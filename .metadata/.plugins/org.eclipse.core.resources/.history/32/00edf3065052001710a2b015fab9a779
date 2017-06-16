@@ -1,0 +1,27 @@
+package com;
+//
+
+//interface Gender {
+
+//	String MALE = "male";
+//	String FEMALE = "female";
+//}
+
+enum Gender {
+
+}
+
+class Employee {
+	String name;
+	String gender; // MALE | FEMALE
+}
+
+public class Enum_Ex {
+	public static void main(String[] args) {
+
+		Employee employee = new Employee();
+		employee.gender = Gender.MALE;
+
+	}
+
+}

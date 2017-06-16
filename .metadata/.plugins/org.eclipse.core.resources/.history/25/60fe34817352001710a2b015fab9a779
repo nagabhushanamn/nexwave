@@ -1,0 +1,15 @@
+package com;
+
+interface I {
+	void a();
+
+	void b();
+}
+
+public class New_Syntax_To_Interface {
+
+	public static void main(String[] args) {
+
+	}
+
+}

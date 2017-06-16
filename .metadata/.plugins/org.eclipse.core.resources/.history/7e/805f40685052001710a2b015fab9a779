@@ -1,0 +1,32 @@
+package com;
+//
+
+//interface Gender {
+
+//	String MALE = "male";
+//	String FEMALE = "female";
+//}
+
+enum Gender {
+	MALE(11), FEMALE
+}
+
+class Employee {
+	String name;
+	Gender gender; // MALE | FEMALE
+}
+
+public class Enum_Ex {
+	public static void main(String[] args) {
+
+		Employee employee = new Employee();
+		employee.gender = Gender.FEMALE;
+
+		// -------------------------------------------
+
+		System.out.println(Gender.MALE.ordinal());
+		System.out.println(Gender.FEMALE.ordinal());
+
+	}
+
+}

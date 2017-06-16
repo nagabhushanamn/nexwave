@@ -1,0 +1,45 @@
+package com;
+
+interface I {
+	void a();
+
+	void b();
+}
+
+class Impl1 implements I {
+
+	@Override
+	public void a() {
+
+	}
+
+	@Override
+	public void b() {
+
+	}
+
+}
+
+class Impl2 implements I {
+
+	@Override
+	public void a() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void b() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+public class New_Syntax_To_Interface {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,31 @@
+package com;
+
+interface Adder {
+	double add(double n1, double n2);
+}
+
+interface Joiner {
+	String join(String s1, String s2);
+}
+
+class Util {
+	public double testAdd(Adder adder) {
+		double a = 12;
+		double b = 13;
+		return adder.add(a, b);
+	}
+
+	public double testJoin(Adder adder) {
+		String s1 = "Biryani";
+		String s2 = "Meals";
+		return adder.add(a, b);
+	}
+}
+
+public class Lambda_Ex2 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,50 @@
+package com;
+
+interface I {
+	void a();
+
+	void b();
+
+	default void defaultMethod() {
+		// default logic....
+	}
+}
+
+class Impl1 implements I {
+
+	@Override
+	public void a() {
+
+	}
+
+	@Override
+	public void b() {
+
+	}
+
+}
+
+class Impl2 implements I {
+
+	@Override
+	public void a() {
+
+	}
+
+	@Override
+	public void b() {
+
+	}
+
+}
+
+public class New_Syntax_To_Interface {
+
+	public static void main(String[] args) {
+
+		I i = new Impl1();
+		i.defaultMethod();
+
+	}
+
+}

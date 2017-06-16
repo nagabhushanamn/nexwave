@@ -1,0 +1,13 @@
+package com;
+
+interface StringToIntMapper {
+
+}
+
+public class Lambda_Ex {
+
+	public static void main(String[] args) {
+
+	}
+
+}
