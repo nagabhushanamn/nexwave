@@ -44,6 +44,17 @@ public class Lambda_Ex {
 		// StringToIntMapper mapper5 = (s) -> s.length() + 50;
 		//
 		// System.out.println(mapper1.map("abc"));
+		
+		
+		
+		//--------------------------------------------------------
+		
+		StringToIntMapper mapper1=s->s.length();
+		StringToIntMapper mapper2=String::length;
+		
+		
+		
+		
 
 		
 		

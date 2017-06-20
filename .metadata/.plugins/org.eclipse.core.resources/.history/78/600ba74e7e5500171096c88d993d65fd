@@ -1,0 +1,12 @@
+package com.app.dao;
+
+import com.app.model.Product;
+
+public class ProductDAO {
+
+	
+	public void save(Product product) {
+		
+	}
+	
+}

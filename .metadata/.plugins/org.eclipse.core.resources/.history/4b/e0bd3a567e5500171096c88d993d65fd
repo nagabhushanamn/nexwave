@@ -1,0 +1,16 @@
+package com.app.dao;
+
+import java.sql.Connection;
+
+import com.app.db.DBConnectionFactory;
+import com.app.model.Product;
+
+public class ProductDAO {
+
+	public void save(Product product) {
+
+		Connection connection = DBConnectionFactory.getConnection();
+
+	}
+
+}

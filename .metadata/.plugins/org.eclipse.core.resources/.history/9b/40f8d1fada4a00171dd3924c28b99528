@@ -1,9 +1,0 @@
-package com;
-
-public class InstanceBlock_Learn {
-	
-	public static void main(String[] args) {
-		
-	}
-
-}

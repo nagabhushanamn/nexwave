@@ -1,0 +1,51 @@
+
+
+  s/w appln
+  --------------------
+  
+  
+     a. application ==> process
+     b. datasource  ==> persist
+     
+     
+     A. application
+     
+         - Object Model
+         
+     B. datasource
+     
+     	   - file-system	
+     
+     	   - RDBMS products ( SQL based )
+     	   
+     	   		=> Relational/Entity Model
+     	   
+     	   - NoSQL ( e.g MongoDB ) 
+     	   
+     	   
+     	 
+     -------------------------------------------
+     
+     
+     ORM ( Object Relational Mapping )
+     
+     
+     using JDBC API
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+      	       

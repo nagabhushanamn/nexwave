@@ -1,0 +1,38 @@
+package com.app;
+
+import java.util.Date;
+
+import com.app.dao.ProductDAO;
+import com.app.model.Product;
+import com.app.model.ProductType;
+
+public class App {
+
+	public static void main(String[] args) {
+
+		ProductDAO productDAO = new ProductDAO();
+
+		// Product product = new Product();
+		// product.setName("Mobile");
+		// product.setPrice(18000.00);
+		// product.setMakeDate(new Date());
+		// product.setType(ProductType.ELEC);
+		// product.setDescription("New Mac pro");
+		//
+		// productDAO.save(product);
+
+		// -------------------------------------------
+		
+		
+		//productDAO.update(1,80000.00);
+		
+		//--------------------------------------------
+		
+		
+		productDAO.find(1);
+		
+		
+		
+	}
+
+}

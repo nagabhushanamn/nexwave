@@ -1,9 +1,0 @@
-package com.nexwave.hr;
-
-public class HR {
-
-	public void manageEmployees() {
-		
-	}
-
-}

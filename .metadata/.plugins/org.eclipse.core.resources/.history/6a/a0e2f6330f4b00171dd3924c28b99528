@@ -1,8 +1,0 @@
-package com.boss;
-
-public class Boss {
-
-	private Boss() {
-		// TODO Auto-generated constructor stub
-	}
-}

@@ -1,0 +1,17 @@
+package com.app.db;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class MySQLConnectionFactory {
+
+	public static Connection getConnection() {
+
+		// 1. Register 'JDBC-Driver' to JDBC API
+
+		// DriverManager.registerDriver(new Driver());
+		Class.forName("com.mysql.jdbc.Driver");
+
+	}
+
+}

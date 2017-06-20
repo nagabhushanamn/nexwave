@@ -1,0 +1,21 @@
+package com.app;
+
+import java.util.Date;
+
+import com.app.model.Product;
+import com.app.model.ProductType;
+
+public class App {
+
+	public static void main(String[] args) {
+
+		Product product = new Product();
+		product.setName("Laptop");
+		product.setPrice(198000.00);
+		product.setMakeDate(new Date());
+		product.setType(ProductType.ELEC);
+		product.setDescription("New Mac pro");
+
+	}
+
+}

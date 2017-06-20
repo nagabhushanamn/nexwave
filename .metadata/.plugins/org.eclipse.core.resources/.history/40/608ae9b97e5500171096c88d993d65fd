@@ -1,0 +1,27 @@
+package com.app.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.app.db.DBConnectionFactory;
+import com.app.model.Product;
+
+public class ProductDAO {
+
+	public void save(Product product) {
+
+		try {
+			Connection connection = DBConnectionFactory.getConnection();
+
+			// 3. create JDBC statements with SQL
+			String sql = "insert into pm.PRODUCTS(name,price,makeDate,type,description) values (?,?,?,?,?)";
+			PreparedStatement ps = connection.prepareStatement(sql);
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

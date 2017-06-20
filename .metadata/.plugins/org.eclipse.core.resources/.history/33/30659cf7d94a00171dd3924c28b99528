@@ -1,9 +1,0 @@
-package com;
-
-public class Static_Block_Learn {
-
-	public static void main(String[] args) {
-
-	}
-
-}

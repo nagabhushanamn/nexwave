@@ -1,5 +1,0 @@
-package com.live;
-
-public class Human extends LivingThing{
-
-}

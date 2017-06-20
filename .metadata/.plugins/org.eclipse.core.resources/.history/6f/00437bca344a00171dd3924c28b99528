@@ -1,5 +1,0 @@
-package com.myutil;
-
-public class LinkedList implements List {
-
-}
