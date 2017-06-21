@@ -1,0 +1,10 @@
+package com.app.model;
+
+import javax.persistence.DiscriminatorValue;
+
+@DiscriminatorValue("NTE")
+public class NonTechEmployee extends Employee {
+
+	private String division;
+
+}
