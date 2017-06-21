@@ -1,0 +1,26 @@
+package com.app.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "EMPLOYEES", schema = "em")
+public class Employee {
+
+	@Id
+	private int id;
+	private String name;
+	private Address address;
+
+	public Employee(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
