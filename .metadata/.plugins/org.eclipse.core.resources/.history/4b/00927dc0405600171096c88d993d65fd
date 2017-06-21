@@ -1,0 +1,58 @@
+package com.app.model;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+@Entity
+@Table(name = "EMPLOYEES", schema = "em")
+public class Employee {
+
+	@Id
+	@Column(name = "EMP_ID")
+	private int id;
+	@Column(name = "EMP_NAME")
+	private String name;
+	private double salary;
+	@Enumerated(EnumType.STRING)
+	private Gender gender;
+	@Temporal(TemporalType.DATE)
+	private Date dob;
+
+	public Employee() {
+		super();
+	}
+
+	public Employee(int id, String name, double salary, Gender gender, Date dob) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+		this.gender = gender;
+		this.dob = dob;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+}

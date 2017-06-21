@@ -1,0 +1,51 @@
+package com.app.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "EMPLOYEES", schema = "em")
+public class Employee {
+
+	@Id
+	@Column(name = "EMP_ID")
+	private int id;
+	@Column(name = "EMP_NAME")
+	private String name;
+	private double salary;
+	@Enumerated(EnumType.STRING)
+	private Gender gender;
+
+	public Employee() {
+		super();
+	}
+
+	public Employee(int id, String name, double salary, Gender gender) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+		this.gender = gender;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+}
