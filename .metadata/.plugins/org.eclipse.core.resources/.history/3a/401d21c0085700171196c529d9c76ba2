@@ -1,0 +1,11 @@
+package com.app.model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Chapter {
+
+	private int idx;
+	private Striing title;
+	
+}

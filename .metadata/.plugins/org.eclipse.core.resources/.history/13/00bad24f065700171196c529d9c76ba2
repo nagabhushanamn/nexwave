@@ -1,0 +1,75 @@
+package com.app;
+
+import java.util.Date;
+import java.util.List;
+
+import javax.persistence.Entity;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.app.model.Product;
+import com.app.model.ProductType;
+
+/*
+ * 
+ * in hibernate, we can select product in 4 ways
+ * 
+ * -> by Id
+ * -> by HQL
+ * -> by Criteria API
+ * -> by Native SQL
+ * 
+ * 
+ * ----------------------------------------------------------------
+ * 
+ * 
+ * advantages of HQL
+ * ---------------------
+ * 
+ * 
+ * -> OO query lang
+ * -> DBMS independent
+ * 
+ * 
+ * 
+ */
+
+public class HQL {
+
+	public static void main(String[] args) {
+
+		Configuration cfg = new Configuration();
+		cfg.configure();
+		SessionFactory sessionFactory = cfg.buildSessionFactory();
+		Session session = sessionFactory.openSession();
+		session.getTransaction().begin();
+
+		/*
+		 * 
+		 * select cloumn(s) from table(s) where condition(s)
+		 * 
+		 * 
+		 */
+
+		// String hql = "from Product";
+		String hql = "from Product p where p.price=100";
+		Query query = session.createQuery(hql);
+
+		// query.setFirstResult(0);
+		// query.setMaxResults(5);
+
+		List<Product> entities = query.list();
+		for (Product product : entities) {
+			System.out.println(product);
+		}
+
+		session.getTransaction().commit();
+		session.close();
+		sessionFactory.close();
+
+	}
+
+}

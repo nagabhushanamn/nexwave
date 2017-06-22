@@ -1,9 +1,0 @@
-package com.multi.level2;
-
-class ProducerConsumer {
-
-}
-
-public class Wait_Notify_Ex {
-
-}
