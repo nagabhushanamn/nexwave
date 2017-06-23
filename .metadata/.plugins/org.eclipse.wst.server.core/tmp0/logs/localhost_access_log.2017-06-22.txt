@@ -19,3 +19,9 @@
 0:0:0:0:0:0:0:1 - - [22/Jun/2017:17:22:08 +0530] "GET /first-app/css/bootstrap.css HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [22/Jun/2017:17:22:09 +0530] "GET /first-app/hello? HTTP/1.1" 200 -
 0:0:0:0:0:0:0:1 - - [22/Jun/2017:17:22:45 +0530] "GET /first-app/hello? HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jun/2017:17:31:40 +0530] "GET / HTTP/1.1" 404 1081
+0:0:0:0:0:0:0:1 - - [22/Jun/2017:17:31:44 +0530] "GET /first-app/ HTTP/1.1" 200 586
+0:0:0:0:0:0:0:1 - - [22/Jun/2017:17:31:44 +0530] "GET /first-app/css/bootstrap.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Jun/2017:17:31:50 +0530] "GET /first-app/hello?userName=Nag HTTP/1.1" 200 513
+0:0:0:0:0:0:0:1 - - [22/Jun/2017:17:49:16 +0530] "GET /first-app/css/bootstrap.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Jun/2017:17:49:16 +0530] "GET /first-app/css/bootstrap.css.map HTTP/1.1" 200 389287

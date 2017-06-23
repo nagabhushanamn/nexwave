@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>pm-app</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="/" class="navbar-brand">PM-app</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+
+
+		<div class="panel panel-primary">
+			<div class="panel-heading">All Products</div>
+			<div class="panel-body"></div>
+		</div>
+
+		<hr />
+
+		<div class="col-md-6">
+			<div class="panel panel-primary">
+				<div class="panel-heading">Product Form</div>
+				<div class="panel-body">
+					<form action="">
+						<div class="form-group">
+							<label>Name</label>
+							<input class="form-control">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+
+
+	</div>
+
+
+</body>
+</html>
