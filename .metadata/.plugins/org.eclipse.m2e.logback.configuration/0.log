@@ -6254,3 +6254,139 @@ org.eclipse.core.runtime.CoreException: Launch configuration Update_Product refe
 2017-06-23 12:52:03,777 [Worker-384] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
 2017-06-23 12:52:19,531 [Worker-409] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-06-23 12:52:19,532 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 12:52:19,533 [Worker-409] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 12:52:19,536 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 12:54:01,717 [Worker-406] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: wissen:pm:1.0.0 @ C:\Users\Nexwave\Desktop\nexwave\PM-v1\pom.xml.
+2017-06-23 12:54:02,905 [Worker-406] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 12:54:02,912 [Worker-406] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 12:54:02,914 [Worker-406] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 12:54:02,914 [Worker-406] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 12:54:02,915 [Worker-406] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of PM-v1
+2017-06-23 12:54:02,915 [Worker-406] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for PM-v1
+2017-06-23 12:54:02,917 [Worker-406] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 12:55:56,578 [Worker-419] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 12:55:56,578 [Worker-419] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 12:55:56,580 [Worker-419] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 12:55:56,580 [Worker-419] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 12:56:00,831 [Worker-406] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 12:56:00,832 [Worker-406] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 12:56:00,833 [Worker-406] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 12:56:00,834 [Worker-406] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 12:56:31,863 [Worker-421] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 12:56:31,864 [Worker-421] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 12:56:31,865 [Worker-421] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 12:56:31,866 [Worker-421] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 12:56:46,530 [Worker-420] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 12:56:46,531 [Worker-420] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 12:56:46,532 [Worker-420] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 12:56:46,532 [Worker-420] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:17:46,103 [Worker-460] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:17:46,104 [Worker-460] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:17:46,105 [Worker-460] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:17:46,105 [Worker-460] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:17:54,882 [Worker-463] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:17:54,882 [Worker-463] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:17:54,883 [Worker-463] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:17:54,941 [Worker-463] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:18:53,541 [Worker-463] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:18:53,541 [Worker-463] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:18:53,542 [Worker-463] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:18:53,542 [Worker-463] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:19:24,453 [Worker-461] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:19:24,454 [Worker-461] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:19:24,456 [Worker-461] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:19:24,456 [Worker-461] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:19:56,165 [Worker-460] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:19:56,165 [Worker-460] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:19:56,166 [Worker-460] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:19:56,167 [Worker-460] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:20:48,260 [Worker-465] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:20:48,261 [Worker-465] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:20:48,262 [Worker-465] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:20:48,262 [Worker-465] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:21:05,308 [Worker-463] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:21:05,309 [Worker-463] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:21:05,310 [Worker-463] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:21:05,313 [Worker-463] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:21:32,942 [Worker-464] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:21:32,942 [Worker-464] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:21:32,943 [Worker-464] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:21:32,944 [Worker-464] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:22:21,795 [Worker-467] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:22:21,795 [Worker-467] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:22:21,796 [Worker-467] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:22:21,797 [Worker-467] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:22:58,849 [Worker-460] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:22:58,849 [Worker-460] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:22:58,850 [Worker-460] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:22:58,850 [Worker-460] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:24:54,606 [Worker-466] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:24:54,607 [Worker-466] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:24:54,608 [Worker-466] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:24:54,611 [Worker-466] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:25:04,505 [Worker-465] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:25:04,506 [Worker-465] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:25:04,508 [Worker-465] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:25:04,509 [Worker-465] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:25:15,209 [Worker-468] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:25:15,210 [Worker-468] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:25:15,211 [Worker-468] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:25:15,212 [Worker-468] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:25:22,223 [Worker-464] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:25:22,224 [Worker-464] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:25:22,225 [Worker-464] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:25:22,226 [Worker-464] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:25:25,981 [Worker-469] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:25:25,981 [Worker-469] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:25:25,982 [Worker-469] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:25:25,984 [Worker-469] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:25:36,929 [Worker-466] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:25:36,930 [Worker-466] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:25:36,930 [Worker-466] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:25:36,932 [Worker-466] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:25:52,459 [Worker-467] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:25:52,459 [Worker-467] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:25:52,460 [Worker-467] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:25:52,461 [Worker-467] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:27:39,006 [Worker-461] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:27:39,007 [Worker-461] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:27:39,008 [Worker-461] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:27:39,009 [Worker-461] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:27:47,231 [Worker-464] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:27:47,232 [Worker-464] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:27:47,233 [Worker-464] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:27:47,248 [Worker-464] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:30:15,857 [Worker-454] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:30:15,858 [Worker-454] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:30:15,859 [Worker-454] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:30:15,861 [Worker-454] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:30:45,201 [Worker-466] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:30:45,202 [Worker-466] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:30:45,203 [Worker-466] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:30:45,203 [Worker-466] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:33:32,971 [Worker-473] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:33:32,972 [Worker-473] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:33:32,973 [Worker-473] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:33:33,027 [Worker-473] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:39:18,756 [Worker-466] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:39:18,757 [Worker-466] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:39:18,758 [Worker-466] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:39:18,816 [Worker-466] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:40:54,024 [Worker-477] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:40:54,024 [Worker-477] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:40:54,024 [Worker-477] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:40:54,024 [Worker-477] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:42:46,507 [Worker-466] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:42:46,507 [Worker-466] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:42:46,507 [Worker-466] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:42:46,507 [Worker-466] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:43:50,487 [Worker-473] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:43:50,487 [Worker-473] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:43:50,487 [Worker-473] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:43:50,487 [Worker-473] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:44:05,153 [Worker-475] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:44:05,153 [Worker-475] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-23 14:44:05,153 [Worker-475] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:44:05,153 [Worker-475] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-23 14:44:25,263 [Worker-479] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-23 14:44:25,263 [Worker-479] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources

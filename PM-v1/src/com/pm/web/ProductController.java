@@ -1,6 +1,9 @@
 package com.pm.web;
 
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.List;
 
 import javax.servlet.RequestDispatcher;
@@ -15,10 +18,11 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 import com.pm.model.Product;
+import com.pm.model.ProductType;
 import com.pm.repository.HibProductRepositoryImpl;
 import com.pm.repository.ProductRepository;
 
-@WebServlet(urlPatterns = { "/pm" })
+@WebServlet(urlPatterns = { "/pm", "/save-product", "/delete-product" })
 public class ProductController extends HttpServlet {
 
 	private ProductRepository productRepo;
@@ -53,6 +57,48 @@ public class ProductController extends HttpServlet {
 			req.setAttribute("allProducts", products);
 			rd = req.getRequestDispatcher("pm.jsp");
 			rd.forward(req, resp);
+		}
+
+		if (path.equals("/delete-product")) {
+			productRepo.delete(Integer.parseInt(req.getParameter("id")));
+			resp.sendRedirect("pm");
+		}
+
+		if (path.equals("/save-product")) {
+
+			//
+			String name = req.getParameter("name");
+			String price = req.getParameter("price");
+			String type = req.getParameter("type");
+			String makeDate = req.getParameter("makeDate");
+			String description = req.getParameter("description");
+
+			// Input Conversion & Validation
+
+			// map req-params to model-object
+
+			Product product = new Product();
+			product.setName(name);
+			product.setPrice(Double.parseDouble(price));
+			product.setType(ProductType.valueOf(type));
+			product.setDescription(description);
+
+			DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+
+			try {
+				System.out.println(df.parse(makeDate));
+				product.setMakeDate(df.parse(makeDate));
+			} catch (ParseException e) {
+				e.printStackTrace();
+			}
+
+			productRepo.save(product);
+
+			// rd = req.getRequestDispatcher("pm.jsp");
+			// rd.forward(req, resp);
+
+			resp.sendRedirect("pm");
+
 		}
 
 	}
