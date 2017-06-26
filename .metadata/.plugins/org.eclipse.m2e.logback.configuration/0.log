@@ -6765,3 +6765,52 @@ org.eclipse.core.runtime.CoreException: Launch configuration Select_Girl referen
 	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
 	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2017-06-26 13:44:15,766 [Worker-728] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: wissen:pm:1.0.0 @ C:\Users\Nexwave\Desktop\nexwave\PM-v1\pom.xml.
+2017-06-26 13:44:18,844 [Worker-728] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/jsp/jstl/jstl/1.2/jstl-1.2.pom
+2017-06-26 13:44:18,897 [Worker-728] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for javax.servlet.jsp.jstl:jstl:jar:1.2 is missing, no dependency information available
+2017-06-26 13:44:20,398 [Worker-728] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/jsp/jstl/jstl/1.2/jstl-1.2.jar
+2017-06-26 13:44:20,753 [Worker-728] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for javax.servlet.jsp.jstl:jstl:jar:1.2 is missing, no dependency information available
+2017-06-26 13:44:29,442 [Worker-728] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-26 13:44:29,443 [Worker-728] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-26 13:44:29,444 [Worker-728] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-26 13:44:29,506 [Worker-728] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-26 13:44:29,506 [Worker-728] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of PM-v1
+2017-06-26 13:44:29,507 [Worker-728] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for PM-v1
+2017-06-26 13:44:29,520 [Worker-728] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-26 13:44:34,230 [Worker-734] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for javax.servlet.jsp.jstl:jstl:jar:1.2 is missing, no dependency information available
+2017-06-26 13:44:34,265 [Worker-734] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-26 13:44:34,265 [Worker-734] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-26 13:44:34,266 [Worker-734] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-26 13:44:34,266 [Worker-734] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-26 13:44:55,399 [Worker-734] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: wissen:pm:1.0.0 @ C:\Users\Nexwave\Desktop\nexwave\PM-v1\pom.xml.
+2017-06-26 13:44:56,512 [Worker-734] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/jstl/1.2/jstl-1.2.pom
+2017-06-26 13:44:56,858 [Worker-734] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/jstl/1.2/jstl-1.2.pom
+2017-06-26 13:44:57,166 [Worker-734] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/jstl/1.2/jstl-1.2.jar
+2017-06-26 13:44:58,668 [Worker-734] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/jstl/1.2/jstl-1.2.jar
+2017-06-26 13:45:00,512 [Worker-734] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-26 13:45:00,513 [Worker-734] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-26 13:45:00,514 [Worker-734] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-26 13:45:00,515 [Worker-734] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-26 13:45:00,515 [Worker-734] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of PM-v1
+2017-06-26 13:45:00,515 [Worker-734] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for PM-v1
+2017-06-26 13:45:00,518 [Worker-734] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-26 13:45:02,503 [Worker-729] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-26 13:45:02,503 [Worker-729] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-26 13:45:02,504 [Worker-729] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-26 13:45:02,505 [Worker-729] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-26 13:45:17,214 [Worker-711] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-26 13:45:17,215 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-26 13:45:17,216 [Worker-711] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-26 13:45:17,216 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-26 13:45:39,965 [Worker-711] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-26 13:45:39,965 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-26 13:45:39,966 [Worker-711] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-26 13:45:39,967 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-26 13:46:17,688 [Worker-727] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-26 13:46:17,689 [Worker-727] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-26 13:46:17,689 [Worker-727] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-26 13:46:17,707 [Worker-727] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources
+2017-06-26 13:46:37,158 [Worker-727] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-26 13:46:37,159 [Worker-727] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\main\resources
+2017-06-26 13:46:37,160 [Worker-727] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-26 13:46:37,160 [Worker-727] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nexwave\Desktop\nexwave\PM-v1\src\test\resources

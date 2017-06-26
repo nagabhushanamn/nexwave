@@ -1,0 +1,13 @@
+package com.mts.service;
+
+public class TxrServiceImpl implements TxrService {
+
+	public void txr(double amount, String fromAccNum, String toAccNum) {
+
+		// load from & to accounts
+
+		// debit & credit
+
+	}
+
+}

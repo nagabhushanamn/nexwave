@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.mts.model.Account"/>
+<fullyQualifiedTypeName name="com.mts.service.TxrService"/>
+<fullyQualifiedTypeName name="com.mts.service.TxrServiceImpl"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="com.mts.repository.AccountRepository"/>
+<fullyQualifiedTypeName name="com.mts.repository.JdbcAccountRepository"/>
+</qualifiedTypeNameHistroy>

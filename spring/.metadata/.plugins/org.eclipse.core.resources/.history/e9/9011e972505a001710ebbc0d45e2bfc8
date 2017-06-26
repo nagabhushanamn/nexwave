@@ -1,0 +1,21 @@
+package com.mts.service;
+
+import com.mts.repository.AccountRepository;
+
+public class TxrServiceImpl implements TxrService {
+
+	private AccountRepository accountRepository;
+	
+	public void txr(double amount, String fromAccNum, String toAccNum) {
+
+	
+		
+		// load from & to accounts
+
+		// debit & credit
+
+		// update accounts
+
+	}
+
+}
