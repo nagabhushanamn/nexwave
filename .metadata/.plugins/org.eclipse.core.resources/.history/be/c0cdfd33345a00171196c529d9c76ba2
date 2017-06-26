@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<%@page import="com.app.model.Person"%>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>pm-app</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body class="container">
+
+
+	<div class="page-header">JSP Learn</div>
+
+	<%
+		Person person = (Person) request.getAttribute("person");
+	%>
+	
+	<!-- HTML comment -->
+	<%-- JSP comment --%>
+	
+	<pre>
+		Id   : <%=person.getId() %>
+		Name : <%=person.getName() %>
+		Age  : <%=person.getAge() %>
+	</pre>
+
+
+
+
+</body>
+</html>

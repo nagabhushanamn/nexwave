@@ -1,0 +1,8 @@
+package com.app.model;
+
+public class Dog {
+	
+	private String name;
+	
+
+}

@@ -16,10 +16,10 @@ public class Boy {
 	private String name;
 
 	@OneToOne(targetEntity = Girl.class, fetch=FetchType.LAZY, cascade = CascadeType.ALL)
-	//@JoinColumn(name = "G_ID")
-	@JoinTable(name="BOY_GIRL",
-	           joinColumns={@JoinColumn(name="B_ID")},
-	           inverseJoinColumns={@JoinColumn(name="G_ID")})
+	@JoinColumn(name = "G_ID")
+//	@JoinTable(name="BOY_GIRL",
+//	           joinColumns={@JoinColumn(name="B_ID")},
+//	           inverseJoinColumns={@JoinColumn(name="G_ID")})
 	private Girl girl;
 
 	public Girl getGirl() {

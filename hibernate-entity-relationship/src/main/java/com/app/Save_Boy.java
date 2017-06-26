@@ -25,14 +25,17 @@ public class Save_Boy {
 		girl.setName("Indu");
 
 		Boy boy = new Boy();
-		boy.setId(15);
+		boy.setId(53453);
 		boy.setName("Nag_v4");
 
 		boy.setGirl(girl);
+		girl.setBoy(boy);
+
+		boy.setGirl((Girl) session.load(Girl.class, 4535));
 
 		// boy.setGirl((Girl) session.get(Girl.class, 33));
 
-		session.save(boy);
+		 session.save(boy);
 		// session.save(girl);
 
 		session.getTransaction().commit();
