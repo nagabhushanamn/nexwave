@@ -1,0 +1,18 @@
+
+
+  Spring Bean life-cycle
+  -------------------
+  
+   1. load bean definitions from XML file(s)
+   2. BFPP ( if registred )
+   
+   on every bean definition
+   
+   3. instance will get created
+   4. dependency injection will happen if required
+   
+   5. BPP will run before init ( if registred )
+   6. bean's init
+   7. BPP will run after init
+   
+   -------------------------------------------------

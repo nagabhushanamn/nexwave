@@ -1,5 +1,0 @@
-package com.concurrent;
-
-public class BlockingQueue_Ex {
-
-}

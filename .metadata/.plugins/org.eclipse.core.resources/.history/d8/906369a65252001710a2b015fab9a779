@@ -1,9 +1,0 @@
-package com;
-
-public class Annotation_Demo {
-	
-	public static void main(String[] args) {
-		
-	}
-
-}

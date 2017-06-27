@@ -1,0 +1,5 @@
+package com.mts.annotation;
+
+public @interface RepoQualifier {
+
+}

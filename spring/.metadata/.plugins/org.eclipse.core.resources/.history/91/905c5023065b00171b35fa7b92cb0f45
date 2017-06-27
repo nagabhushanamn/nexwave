@@ -1,0 +1,5 @@
+package com.mts.repository;
+
+public class HibAccountRepository implements AccountRepository {
+
+}

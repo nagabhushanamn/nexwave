@@ -24,7 +24,7 @@ public class Select_Boy {
 		System.out.println(boy);
 		System.out.println("----------------------------------------");
 		// System.out.println(boy.getGirl());
-		Hibernate.initialize(boy.getGirl());
+		//Hibernate.initialize(boy.getGirl());
 
 		session.getTransaction().commit();
 		session.close();
