@@ -1,0 +1,8 @@
+package com.mts.aspects;
+
+
+public class LoggingAspect {
+
+	
+	
+}

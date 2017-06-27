@@ -1,0 +1,22 @@
+package com.mts.spring;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.mts.repository.AccountRepository;
+import com.mts.repository.JdbcAccountRepository;
+import com.mts.service.TxrService;
+
+@Configuration
+public class AppConfig {
+
+	@Bean(name = "jdbcAccoutnyRepository")
+	public AccountRepository jdbcAccoutnyRepository() {
+		return new JdbcAccountRepository(null);
+	}
+
+	public TxrService () {
+		
+	}
+
+}
