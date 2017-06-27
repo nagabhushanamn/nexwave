@@ -11,12 +11,22 @@ public class TxrServiceImpl implements TxrService {
 	private static Logger logger = Logger.getLogger("mts");
 
 	private AccountRepository accountRepository;
+	private String txrType = "NEFT";
 
 	public TxrServiceImpl(AccountRepository accountRepository) {
 		super();
 		this.accountRepository = accountRepository;
 		logger.info("TxrService instantiated");
 		logger.info("accountRepository injected to txrService");
+	}
+
+	public void setTxrType(String txrType) {
+		this.txrType = txrType;
+		logger.info("new txrType injected");
+	}
+
+	public void init() {
+		logger.info("init()");
 	}
 
 	public void txr(double amount, String fromAccNum, String toAccNum) {

@@ -20,7 +20,7 @@ public class Select_Boy {
 		Session session = sessionFactory.openSession();
 		session.getTransaction().begin();
 
-		Boy boy = (Boy) session.get(Boy.class, 15);
+		Boy boy = (Boy) session.get(Boy.class, 53453);
 		System.out.println(boy);
 		System.out.println("----------------------------------------");
 		// System.out.println(boy.getGirl());

@@ -31,12 +31,12 @@ public class Save_Boy {
 		boy.setGirl(girl);
 		girl.setBoy(boy);
 
-		boy.setGirl((Girl) session.load(Girl.class, 4535));
+		// boy.setGirl((Girl) session.load(Girl.class, 4535));
 
 		// boy.setGirl((Girl) session.get(Girl.class, 33));
 
-		 session.save(boy);
-		// session.save(girl);
+		session.save(boy);
+		session.save(girl);
 
 		session.getTransaction().commit();
 		session.close();

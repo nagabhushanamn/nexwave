@@ -20,7 +20,7 @@ public class App {
 		// TxrService txrService = new TxrServiceImpl(accountRepository);
 
 		ConfigurableApplicationContext context = null;
-		context = new ClassPathXmlApplicationContext("application-layer.xml");
+		context = new ClassPathXmlApplicationContext("application-layer.xml","infra-layer.xml");
 
 		System.out.println("-------------------------------------");
 

@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.mts.model.Account"/>
-<fullyQualifiedTypeName name="com.mts.service.TxrService"/>
-<fullyQualifiedTypeName name="com.mts.service.TxrServiceImpl"/>
 <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
 <fullyQualifiedTypeName name="com.mts.repository.AccountRepository"/>
 <fullyQualifiedTypeName name="com.mts.repository.JdbcAccountRepository"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.ConfigurableApplicationContext"/>
+<fullyQualifiedTypeName name="com.mts.spring.LegacySingleton"/>
+<fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.config.BeanFactoryPostProcessor"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.config.BeanPostProcessor"/>
+<fullyQualifiedTypeName name="com.mts.service.TxrServiceImpl"/>
+<fullyQualifiedTypeName name="org.springframework.beans.BeanInstantiationException"/>
+<fullyQualifiedTypeName name="com.mts.service.TxrService"/>
 </qualifiedTypeNameHistroy>

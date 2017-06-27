@@ -4,12 +4,19 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-	<bean id="accountRepository" class="com.mts.repository.JdbcAccountRepository">
+	<bean class="com.mts.spring.BPP"></bean>
+
+	<bean id="txrService" class="com.mts.service.TxrServiceImpl" init-method="init">
+		<constructor-arg ref="accountRepository" />
+		<property name="txrType" value="abc" />
 	</bean>
 
-	<bean id="txrService" class="com.mts.service.TxrServiceImpl">
-		<constructor-arg ref="accountRepository" />
+
+	<bean id="accountRepository" class="com.mts.repository.JdbcAccountRepository">
+		<constructor-arg ref="dataSource" />
 	</bean>
+
+
 
 
 

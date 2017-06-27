@@ -1,0 +1,17 @@
+package com.mts.spring;
+
+public class LegacySingleton {
+
+	private static LegacySingleton singleton = null;
+
+	private LegacySingleton() {
+	}
+
+	public static LegacySingleton getInstance() {
+		if (singleton == null) {
+			singleton = new LegacySingleton();
+		}
+		return singleton;
+	}
+
+}
