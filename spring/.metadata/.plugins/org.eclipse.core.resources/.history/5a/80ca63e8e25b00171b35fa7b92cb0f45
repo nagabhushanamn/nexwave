@@ -1,0 +1,64 @@
+package com.mts.spring;
+
+import java.util.Properties;
+
+import javax.sql.DataSource;
+
+import org.apache.commons.dbcp.BasicDataSource;
+import org.hibernate.SessionFactory;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.jdbc.datasource.DataSourceTransactionManager;
+import org.springframework.orm.hibernate5.HibernateTransactionManager;
+import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
+import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+@Configuration
+@ComponentScan(basePackages = { "com.mts.service", "com.mts.repository" })
+@EnableTransactionManagement
+public class AppConfig {
+
+	@Bean
+	public DataSource dataSource() {
+		BasicDataSource dataSource = new BasicDataSource();
+		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+		dataSource.setUrl("jdbc:mysql://localhost:3306/mts");
+		dataSource.setUsername("root");
+		dataSource.setPassword("admin");
+		dataSource.setMaxActive(5);
+		dataSource.setMaxIdle(30);
+		return dataSource;
+	}
+
+	@Bean
+	public PlatformTransactionManager transactionManager() {
+		DataSourceTransactionManager tm = new DataSourceTransactionManager();
+		tm.setDataSource(dataSource());
+		return tm;
+	}
+
+	// -----------------------------------------------------------------
+
+	@Bean
+	public SessionFactory sessionFactory() {
+		LocalSessionFactoryBean factoryBean = new LocalSessionFactoryBean();
+		factoryBean.setDataSource(dataSource());
+		factoryBean.setPackagesToScan("com.mts.model");
+		Properties hibernateProperties = new Properties();
+		hibernateProperties.setProperty("show_sql", "true");
+		hibernateProperties.setProperty("format_sql", "true");
+		factoryBean.setHibernateProperties(hibernateProperties);
+		return factoryBean.getObject();
+	}
+
+	public PlatformTransactionManager hibernateTransactionManager() {
+		HibernateTransactionManager manager = new HibernateTransactionManager();
+		manager.setSessionFactory(sessionFactory());
+		return manager;
+	}
+
+	// -----------------------------------------------------------------
+
+}

@@ -1,0 +1,39 @@
+package com.mts.repository;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import javax.sql.DataSource;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
+
+import com.mts.model.Account;
+
+public class JdbcAccountRepository implements AccountRepository {
+
+	private JdbcTemplate jdbcTemplate;
+
+	public JdbcAccountRepository(DataSource dataSource) {
+		this.jdbcTemplate = new JdbcTemplate(dataSource);
+
+	}
+
+	public Account load(String num) {
+		String sql = "select * from mts.ACCOUNTS where num=?";
+		return jdbcTemplate.queryForObject(sql, new RowMapper<Account>() {
+			@Override
+			public Account mapRow(ResultSet rs, int i) throws SQLException {
+				Account account = new Account();
+				account.setNum(rs.getString(1));
+				account.setBalance(rs.getDouble(2));
+				account.setAccHolderName(rs.getString(3));
+				return account;
+			}
+		}, num);
+	}
+
+	public void update(Account account) {
+	}
+
+}
