@@ -13,5 +13,21 @@
 <fullyQualifiedTypeName name="org.springframework.beans.factory.config.BeanPostProcessor"/>
 <fullyQualifiedTypeName name="com.mts.service.TxrServiceImpl"/>
 <fullyQualifiedTypeName name="org.springframework.beans.BeanInstantiationException"/>
+<fullyQualifiedTypeName name="org.springframework.web.context.support.WebApplicationContextUtils"/>
+<fullyQualifiedTypeName name="org.springframework.web.context.WebApplicationContext"/>
 <fullyQualifiedTypeName name="com.mts.service.TxrService"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="org.springframework.web.WebApplicationInitializer"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer"/>
+<fullyQualifiedTypeName name="com.app.config.WebAppConfig"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.EnableWebMvc"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter"/>
+<fullyQualifiedTypeName name="com.app.config.WebConfig"/>
 </qualifiedTypeNameHistroy>

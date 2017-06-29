@@ -17,7 +17,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "ACCOUNTS", schema = "mts")
 public class Account {
-
+ 
 	@Id
 	private String num;
 	private double balance;

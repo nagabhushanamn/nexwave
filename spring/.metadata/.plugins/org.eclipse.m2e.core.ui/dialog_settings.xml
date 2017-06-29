@@ -7,6 +7,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="spring-mvc-learn"/>
 			<item value="mts-v1"/>
 		</list>
 		<list key="projectNameTemplate">

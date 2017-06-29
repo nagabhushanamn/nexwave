@@ -19,30 +19,24 @@ import com.mts.repository.NewAccountRepository;
 @Service("txrService")
 public class TxrServiceImpl implements TxrService {
 
-//	@Autowired
-//	@Qualifier("hibernate")
-//	private AccountRepository accountRepository;
-	
 	@Autowired
-	private NewAccountRepository accountRepository;
+	@Qualifier("hibernate")
+	private AccountRepository accountRepository;
 
-	@Transactional(
-			transactionManager = "hibernateTransactionManager",
-			isolation=Isolation.READ_COMMITTED,
-			propagation=Propagation.REQUIRED)
+	// @Autowired
+	// private NewAccountRepository accountRepository;
+
+	@Transactional(transactionManager = "jpaTransactionManager", isolation = Isolation.READ_COMMITTED, propagation = Propagation.REQUIRED)
 	public void txr(double amount, String fromAccNum, String toAccNum) {
 
 		// load from & to accounts
-		
-//		Account fromAccount = accountRepository.load(fromAccNum);
-//		Account toAccount = accountRepository.load(toAccNum);
-		
-		Account fromAccount = accountRepository.findOne(fromAccNum);
-		Account toAccount = accountRepository.findOne(toAccNum);
 
-		
-		System.out.println(fromAccount);
-		
+		Account fromAccount = accountRepository.load(fromAccNum);
+		Account toAccount = accountRepository.load(toAccNum);
+
+		// Account fromAccount = accountRepository.findOne(fromAccNum);
+		// Account toAccount = accountRepository.findOne(toAccNum);
+
 		// debit & credit
 		fromAccount.setBalance(fromAccount.getBalance() - amount);
 		toAccount.setBalance(toAccount.getBalance() + amount);
@@ -57,13 +51,15 @@ public class TxrServiceImpl implements TxrService {
 		fromAccount.getTxns().add(fromAccTxn);
 
 		// update accounts
-		//accountRepository.update(fromAccount);
+		accountRepository.update(fromAccount);
+		// accountRepository.update(fromAccount.getBalance(),fromAccount.getNum());
 
 		// boolean status = false;
 		// if (status)
 		// throw new RuntimeException("oops");
 
-		//accountRepository.update(toAccount);
+		accountRepository.update(toAccount);
+		// accountRepository.update(toAccount.getBalance(), toAccount.getNum());
 	}
 
 }

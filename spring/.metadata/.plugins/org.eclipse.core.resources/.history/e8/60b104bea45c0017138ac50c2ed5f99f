@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>spring-mvc</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body class="container">
+
+
+	Name : <input name="userName"/>
+	       <button class="btn bnt-primary">say hello</button>  
+
+</body>
+</html>

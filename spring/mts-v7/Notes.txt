@@ -1,0 +1,22 @@
+
+
+ Jboss community --> Hibernate
+ Apache          --> iBatis
+ Eclipse         --> EclipseLink
+ Oracle          --> Toplink
+ 
+ ------------------------------------------------
+ 
+ 
+ JPA ( Java Persistent API ) : javax.persistence.*
+ 
+    ==> ORM spec  
+ 
+ 
+ 
+ EntityManager
+ EntityManagerFactory
+ PersistentUnit
+ 
+ ---------------------------------------------------
+ 
