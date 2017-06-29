@@ -1,0 +1,17 @@
+
+
+  String MVC
+  --------------
+  	
+  Request Mapping
+  
+   -> by path
+   -> by http-method
+   
+   -> by params
+   -> by request-headers
+   
+   
+   ---------------------------------------------
+  
+  
