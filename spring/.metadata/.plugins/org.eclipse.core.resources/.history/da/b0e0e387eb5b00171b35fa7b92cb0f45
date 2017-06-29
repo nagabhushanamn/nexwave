@@ -1,0 +1,31 @@
+package com.mts.model;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+@Entity 
+@Table(name="TxnHistory",schema="mts")
+public class Txn {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+	private TxnType type;
+	private double amount;
+	private String closingBalance;
+	private String remark;
+	private Date date;
+	
+	@ManyToOne
+	private Account account;
+
+	
+	
+	
+}

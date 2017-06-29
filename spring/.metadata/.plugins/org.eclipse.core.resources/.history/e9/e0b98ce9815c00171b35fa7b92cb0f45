@@ -1,0 +1,13 @@
+package com.mts.repository;
+
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.mts.model.Account;
+
+@Repository
+@Qualifier("newAccRepo")
+public interface NewAccountRepository extends CrudRepository<Account, String> {
+
+}
