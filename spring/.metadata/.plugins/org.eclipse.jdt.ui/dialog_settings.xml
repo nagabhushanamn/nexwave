@@ -87,4 +87,7 @@
 	</section>
 	<section name="JavaElementSearchActions">
 	</section>
+	<section name="WorkingSetModelAwareSelectionDialog">
+		<item value="true" key="ShowVisibleOnly"/>
+	</section>
 </section>
