@@ -1,0 +1,18 @@
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: admin
+    url: jdbc:mysql://localhost:3306/facebook
+    
+    
+  data:
+    jpa:
+      repositories:
+        enabled: true
+        
+  jpa:
+    hibernate:
+      ddl-auto: create

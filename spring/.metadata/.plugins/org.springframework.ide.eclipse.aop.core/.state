@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="spring-mvc-learn"/>
+<aop-project name="demo"/>
 <aop-project name="mts-v2"/>
-<aop-project name="mts-v6"/>
 </aop-reference-model>

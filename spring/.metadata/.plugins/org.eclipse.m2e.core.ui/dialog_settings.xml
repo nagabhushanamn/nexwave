@@ -2,13 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="wissen"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="spring-mvc-learn"/>
-			<item value="mts-v1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -35,6 +32,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -46,6 +44,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Nexwave\Desktop\nexwave\spring\spring-mvc-hello"/>
+			<item value="C:\Users\Nexwave\Desktop\nexwave\spring\spring-mvc-learn"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -58,10 +58,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.wissen.app"/>
 		</list>
 		<list key="groupId">
+			<item value="wissen"/>
 		</list>
 		<list key="artifactId">
+			<item value="quick-start"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

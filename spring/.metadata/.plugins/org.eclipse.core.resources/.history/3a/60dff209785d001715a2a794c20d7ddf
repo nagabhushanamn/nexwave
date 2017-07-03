@@ -1,0 +1,20 @@
+package com.example;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+@Component()
+@ConfigurationProperties(prefix="my")
+public class CustomConfig {
+
+	private String compName;
+
+	public String getCompName() {
+		return compName;
+	}
+
+	public void setCompName(String compName) {
+		this.compName = compName;
+	}
+
+}
