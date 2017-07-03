@@ -96,15 +96,15 @@ Execution Context ( scope )
 
 // prob-2 : No Block-scope
 
-var i=100;
-{
-    var i=200;
-}
+// var i=100;
+// {
+//     var i=200;
+// }
 // console.log(i);
 
 // prob-3: we can re-declare sample var multiples within same-context
-var i=100;
-var i=200;
+// var i=100;
+// var i=200;
 
 
 //----------------------------------------------------------
@@ -133,21 +133,36 @@ var i=200;
 //----------------------------------------------
 
 
-const PI=3.14;
+// const PI=3.14;
 
 
-const person={
-    name:'Nag'
-};
-
-
-
+// const person={
+//     name:'Nag'
+// };
 
 
 
 
 
 
+//----------------------------------------------
+
+
+// var i=13;
+// function f1(){
+//     function f2(){
+//         console.log(i);
+//     }
+//     f2();
+//     let i=12;
+// }
+
+// f1();
+
+//-----------------------------------------------
+
+// console.log(drink);
+// let drink="tea";
 
 
 
