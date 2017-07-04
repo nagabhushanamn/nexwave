@@ -72,13 +72,14 @@ How to .js program?
  1. data-types
  2. execution-context/scope
  3. functions-depth
+ 
  4. conntext's owner ==> this
  5. closures
  6. Inheritance
  7. objects-adv
  8. ES6 New features
  9. JS-modules
- 10. JS-concurrency model with Event-Loop
+ 10.JS-concurrency model with Event-Loop
 
  ------------------------------------------------
   

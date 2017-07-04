@@ -158,7 +158,6 @@ var newRe=/\d{10}/;
 // 4. Function
 
 
-
 var add=new Function("n1","n2","var r=n1+n2;return r;");
 
 
