@@ -101,6 +101,57 @@ personGreetFunc();
 
 
 
+//-----------------------------------------------------------------------------
+
+
+ 
+
+let p11=new Person("Nag")
+let p12=new Person("Ria")  // constructor invocation ( this ==> new-obj)
+
+
+
+
+
+//-------------------------------------------------------
+
+
+
+/*
+
+ in .js-lang , we can invoke functions in 4 ways
+
+ 1. function invocation  ( this ==> global-obj)
+ 2. method-invocation    ( this ==> invoker)
+ 3. call/apply/bind invocation ( this => arg-obj)
+ 4. constructor invocation ( this ==> new-obj)
+
+
+*/
+
+
+//-----------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

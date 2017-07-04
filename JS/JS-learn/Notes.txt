@@ -72,7 +72,6 @@ How to .js program?
  1. data-types
  2. execution-context/scope
  3. functions-depth
- 
  4. conntext's owner ==> this
  5. closures
  6. Inheritance
