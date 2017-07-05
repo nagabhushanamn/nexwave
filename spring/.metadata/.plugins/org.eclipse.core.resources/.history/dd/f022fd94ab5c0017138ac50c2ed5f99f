@@ -1,5 +1,0 @@
-package com.app.spring.config;
-
-public class WebMvcConfig {
-
-}

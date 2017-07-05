@@ -1,8 +1,0 @@
-package com.app.model;
-
-public class Publisher {
-
-	private int id;
-	private String name;
-
-}

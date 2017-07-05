@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;mts-v8/src/main/webapp/WEB-INF/views/greet.jsp&apos; to &apos;txr-status.jsp&apos;" description="Rename resource &apos;greet.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/views/greet.jsp" name="txr-status.jsp" stamp="1498737339270" updateReferences="true"/>
-</session>

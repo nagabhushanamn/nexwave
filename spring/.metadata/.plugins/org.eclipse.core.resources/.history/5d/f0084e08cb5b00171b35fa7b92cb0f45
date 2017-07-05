@@ -1,7 +1,0 @@
-
-create database mts;
-use mts;
-
-create table mts.ACCOUNTS(
-
-);

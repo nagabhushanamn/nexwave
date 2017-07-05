@@ -1,9 +1,0 @@
-package com.wissen.app;
-
-public class Calc {
-
-	public double add(int num1, int num2) {
-		return 0.0;
-	}
-
-}

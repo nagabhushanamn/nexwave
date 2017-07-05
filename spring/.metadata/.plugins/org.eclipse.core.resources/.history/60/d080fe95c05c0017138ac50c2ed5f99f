@@ -1,7 +1,0 @@
-package com.mts.web;
-
-public class TxrResponse {
-	
-	private String status;
-
-}

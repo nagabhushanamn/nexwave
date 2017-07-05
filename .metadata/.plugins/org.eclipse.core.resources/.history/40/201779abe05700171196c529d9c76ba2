@@ -1,7 +1,0 @@
-package com.pm.web;
-
-import javax.servlet.http.HttpServlet;
-
-public class ProductController extends HttpServlet{
-
-}

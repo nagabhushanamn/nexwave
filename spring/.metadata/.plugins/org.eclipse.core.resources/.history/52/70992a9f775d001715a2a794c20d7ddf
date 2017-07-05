@@ -1,8 +1,0 @@
-
-debug: true
-
-spring:
-  devtools:
-    livereload:
-      enabled: true
-    
