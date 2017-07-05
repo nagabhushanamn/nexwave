@@ -1,0 +1,27 @@
+package com.app.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.app.model.Product;
+
+public class ProductDAO {
+
+	public void save(Product product) {
+	}
+
+	public void update(int id, double price) {
+	}
+
+	public Product find(int id) {
+		return null;
+	}
+
+	public List<Product> findAll() {
+		return null;
+	}
+
+	public void delete(int id) {
+	}
+
+}

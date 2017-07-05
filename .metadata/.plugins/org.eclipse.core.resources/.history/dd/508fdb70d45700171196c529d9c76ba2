@@ -1,0 +1,5 @@
+package com.pm.repository;
+
+public class HibProductRepositoryImpl {
+
+}

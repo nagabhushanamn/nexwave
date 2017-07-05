@@ -1,0 +1,17 @@
+package com.mts.repository;
+
+import com.mts.model.Account;
+
+public class HibAccountRepository implements AccountRepository {
+
+	public Account load(String num) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void update(Account account) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

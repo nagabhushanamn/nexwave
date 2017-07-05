@@ -1,0 +1,30 @@
+package com.app;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.app.model.Boy;
+
+public class Select_Boy {
+
+	public static void main(String[] args) {
+
+		Configuration cfg = new Configuration();
+		cfg.configure();
+		SessionFactory sessionFactory = cfg.buildSessionFactory();
+		Session session = sessionFactory.openSession();
+		session.getTransaction().begin();
+
+		session.get(Boy.class, 11);
+
+		session.getTransaction().commit();
+		session.close();
+		sessionFactory.close();
+
+	}
+
+}

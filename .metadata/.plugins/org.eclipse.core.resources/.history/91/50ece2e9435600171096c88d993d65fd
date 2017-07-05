@@ -1,0 +1,7 @@
+package com.app.model;
+
+import org.hibernate.id.IdentifierGenerator;
+
+public class CustomIDGenerator implements IdentifierGenerator {
+
+}

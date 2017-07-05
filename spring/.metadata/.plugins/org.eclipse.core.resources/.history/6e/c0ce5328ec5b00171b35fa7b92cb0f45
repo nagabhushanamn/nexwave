@@ -1,0 +1,40 @@
+
+package com.mts.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.mts.model.Account;
+import com.mts.repository.AccountRepository;
+
+@Service("txrService")
+public class TxrServiceImpl implements TxrService {
+
+	@Autowired
+	@Qualifier("hibernate")
+	private AccountRepository accountRepository;
+
+	@Transactional(transactionManager = "hibernateTransactionManager")
+	public void txr(double amount, String fromAccNum, String toAccNum) {
+
+		// load from & to accounts
+		Account fromAccount = accountRepository.load(fromAccNum);
+		Account toAccount = accountRepository.load(toAccNum);
+
+		// debit & credit
+		fromAccount.setBalance(fromAccount.getBalance() - amount);
+		toAccount.setBalance(toAccount.getBalance() + amount);
+
+		// update accounts
+		accountRepository.update(fromAccount);
+
+		// boolean status = false;
+		// if (status)
+		// throw new RuntimeException("oops");
+
+		accountRepository.update(toAccount);
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.app.model;
+
+import javax.persistence.DiscriminatorValue;
+
+@DiscriminatorValue("TE")
+public class TechEmployee extends Employee {
+
+	private String techSkill;
+
+}

@@ -1,0 +1,93 @@
+
+
+
+.js-intro
+
+
+-> scripting lang for web-pages in browser-envi
++
+-> server-side lang on Node.js
+-> mobile appln
+-> command-line tools
+
+
+------------------------------------------------------
+
+.js-lang Features
+
+
+ -> FP or OOP
+ -> dynamic typed lang
+ -> closures support
+
+ -> single-threaded lang , we can do better concurrency
+ -> Non Blocking IO
+
+
+-------------------------------------------------------
+
+
+.js-lang is an implementation of 'ECMAScript spec'
+
+
+latest release: ECMAScript-2015  or ES6
+
+--------------------------------------------------------
+
+
+How to .js program?
+
+
+ --> using .js-runtime/engine  
+
+
+ browser-envi
+ --------------
+
+ a. chrome  -> v8(c++)
+ b. firefox -> rhino(java)
+ c. IE/Edge -> chakra
+ d. safari  -> nitro
+ .........
+
+ other envi
+ ------------
+ 
+ a. Node.js -> v8
+ b. JVM     -> rhino/nashorn 
+ c. Adobe
+ d. Apache CouchDB
+ e. MongoDB
+ ............
+
+
+ ----------------------------------------------
+
+
+ "Hello World"
+
+ ----------------------------------------------
+
+
+ 1. data-types
+ 2. execution-context/scope
+ 3. functions-depth
+ 4. conntext's owner ==> this
+ 5. closures
+ 6. Inheritance
+ 7. objects-adv
+ 8. ES6 New features
+ 9. JS-modules
+ 10.JS-concurrency model with Event-Loop
+
+ ------------------------------------------------
+  
+
+
+
+
+
+
+
+
+

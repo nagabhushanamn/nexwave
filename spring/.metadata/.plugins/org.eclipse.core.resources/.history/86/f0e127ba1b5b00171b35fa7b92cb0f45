@@ -1,0 +1,35 @@
+package com.mts.repository;
+
+import javax.sql.DataSource;
+
+import org.apache.log4j.Logger;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
+
+import com.mts.annotation.RepoQualifier;
+import com.mts.model.Account;
+
+//@Component("jdbcAccountRepository")
+@Repository("jdbcAccountRepository")
+@RepoQualifier(dbms="mysql",tech="jdbc")
+public class JdbcAccountRepository implements AccountRepository {
+
+	private static Logger logger = Logger.getLogger("mts");
+
+	private DataSource dataSource;
+
+	public JdbcAccountRepository(DataSource dataSource) {
+		logger.info("JdbcAccountRepository instantiated..");
+		this.dataSource = dataSource;
+	}
+
+	public Account load(String num) {
+		logger.info("loading account");
+		return null;
+	}
+
+	public void update(Account account) {
+		logger.info("updating account");
+	}
+
+}

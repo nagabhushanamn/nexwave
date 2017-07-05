@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>index</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="page-header">JEE-web</div>
+
+</body>
+</html>

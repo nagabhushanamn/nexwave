@@ -1,0 +1,26 @@
+package com.mts.spring;
+
+import javax.sql.DataSource;
+
+import org.apache.commons.dbcp.BasicDataSource;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class AppConfig {
+
+	@Bean
+	public DataSource dataSource() {
+		BasicDataSource dataSource = new BasicDataSource();
+		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+		dataSource.setUrl("jdbc:mysql://localhost:3306/mts");
+		dataSource.setUsername("admin");
+		dataSource.setPassword("admin");
+		dataSource.setMaxActive(5);
+		dataSource.setMaxIdle(30);
+		return dataSource;
+	}
+	
+	
+
+}

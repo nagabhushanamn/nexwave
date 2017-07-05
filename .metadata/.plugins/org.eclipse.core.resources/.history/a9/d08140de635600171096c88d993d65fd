@@ -1,0 +1,8 @@
+package com.app.model;
+
+
+public class TechEmployee extends Employee {
+
+	private String techSkill;
+
+}

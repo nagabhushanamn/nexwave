@@ -1,0 +1,14 @@
+package com.mts.aspects;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+
+@Aspect
+public class LoggingAspect {
+
+	@Before("execution void txr(..)")
+	public void doLogBeforeMethod() {
+
+	}
+
+}

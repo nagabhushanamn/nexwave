@@ -1,0 +1,13 @@
+package com.app.hib;
+
+import org.hibernate.SessionFactory;
+
+public class HibSessionFactory {
+
+	private static SessionFactory sessionFactory;
+
+	static {
+		
+	}
+
+}

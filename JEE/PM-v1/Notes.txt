@@ -1,0 +1,98 @@
+
+
+   MVC ( Model View Controller ) arch-pattern
+   ---------------------------------------------
+   
+   
+   Model
+   --------
+   
+   	--> data
+   	
+   	
+   View
+   ----------
+   
+    -> User Interface
+    
+    
+   Controller
+   -----------  	
+   
+    --> provides data & behav to View
+    
+    
+   ---------------------------------------------------
+   
+   
+   adv MVC
+   -----------
+   
+   
+    --> easy to maintain
+    --> easy to test
+    --> easy to extend
+    --> well-known and proven pattern
+    
+   
+  -------------------------------------------------------
+  
+  
+  How to implement this pattern in java based web-appln ?
+  
+  
+  
+  refer : http://images.techhive.com/images/idge/imported/article/jvw/1999/12/model2_sml-100158072-orig.gif
+  
+  
+  
+  -----------------------------------------------------------
+  
+  case-study : PM ( Product Management )
+  
+  
+   Model:
+   ------
+   
+   	-> Product
+   	
+   	Layer(s)
+   	
+   	a. Service Layer  
+   	b. Data Layer
+   	
+   View
+   --------
+   
+    -> Home View ( .html )
+    -> PM View 	 ( .jsp  )
+    
+  
+  Controller ( Web layer )
+  --------------------------
+  
+  	-> ProductController ( servlet )
+  	
+  	   
+  --------------------------------------------------------------
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+   
+   
+    

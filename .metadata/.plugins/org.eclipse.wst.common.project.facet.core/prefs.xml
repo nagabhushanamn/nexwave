@@ -1,0 +1,16 @@
+<root>
+  <facet id="jpt.jpa">
+    <node name="libprov">
+      <node name="last-provider-used">
+        <attribute name="2.1" value="jpa-user-library-provider"/>
+      </node>
+    </node>
+    <node name="user.library.provider">
+      <node name="last.used.libraries">
+        <node name="2.1">
+          <node name="EclipseLink 2.5.2"/>
+        </node>
+      </node>
+    </node>
+  </facet>
+</root>

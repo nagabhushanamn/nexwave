@@ -1,0 +1,9 @@
+package com.mts.aspects;
+
+public class LoggingAspect {
+
+	public void doLogBeforeMethod() {
+
+	}
+
+}

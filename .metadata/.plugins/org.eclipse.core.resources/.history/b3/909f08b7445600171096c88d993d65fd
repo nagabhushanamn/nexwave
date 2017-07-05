@@ -1,0 +1,8 @@
+package com.app.model;
+
+public class EmployeeId {
+
+	private int id;
+	private String dep;
+
+}

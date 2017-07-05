@@ -1,0 +1,11 @@
+package com.app.model;
+
+import javax.persistence.Id;
+
+public class Chapter {
+
+	@Id
+	private int seq;
+	private String title;
+
+}

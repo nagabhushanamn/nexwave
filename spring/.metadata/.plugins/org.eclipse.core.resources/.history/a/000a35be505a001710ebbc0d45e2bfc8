@@ -1,0 +1,15 @@
+package com.mts;
+
+public class App {
+
+	public static void main(String[] args) {
+
+		// Init
+
+		// Use
+
+		// Destroy
+
+	}
+
+}
