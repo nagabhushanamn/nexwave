@@ -1,0 +1,64 @@
+
+
+Exception
+--------------
+
+==> un-expected program flow-disturb at runtime
+
+reasons for exceptions
+----------------------
+
+  ...................
+  
+ ------------------------------------------------ 
+what happen if exception happen?
+
+  by default , JRE will handle it by terminating process
+  
+-------------------------------------------------
+
+
+Advantages of Exceptions
+
+
+Advantage 1: Separating Error-Handling Code from "Regular" Code
+Advantage 2: Propagating Errors Up the Call Stack
+Advantage 3: Grouping and Differentiating Error Types
+
+------------------------------------------------------
+
+How to handle?
+
+
+
+  -> try,catch,finally
+  -> throw
+  -> throws
+  
+  +
+  
+  -> ExceptionClass(s)
+  
+  
+--------------------------------------------------------  
+
+
+
+   exceptions
+   
+   	-> checked
+   	-> un-ckecked
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

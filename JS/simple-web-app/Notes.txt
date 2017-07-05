@@ -1,0 +1,146 @@
+
+---------------------------------------------------
+
+what .js-programs can do on HTML page in browser-envi?
+
+
+ using browser provided Web-APIs , 
+ can bring any dynamic activities to page
+
+
+ Web APIs ( based on w3c recommendations )
+
+   - DOM,XHR,Timer,etc.......
+
+using DOM API
+----------------
+ -> can create,retreive,update,delete HTML elements
+ -> can change element's text/html content
+ -> can change element's attributes/properties
+ -> can change element's style
+ -> can listen events
+ ..........
+
+usig XHR API
+------------
+ -> can communicate with server-side asyn, update resp in existing page
+
+using Timer API
+---------------
+ -> can run timer actions
+
+HTMl5 APIs
+----------------
+
+    ref : https://developer.mozilla.org/en/docs/Web/Guide/HTML/HTML5
+
+----------------------------------------------------
+
+How .js programs are running in browser ?
+
+in .js-lang
+
+ -> How to bring concurrency in .js-lang?
+ -> How to do IO operation .js-lang
+
+-----------------------------------------------------
+
+browser e.g chrome
+
+
+    1. JS-runtime/engine ( v8 )  : based on ECMAScript spec
+
+       a. single-call-stack ( to excute contexts )
+       b. heap              ( to hold objects)
+
+
+    2. Web APIs ( DOM, XHR , Timer , ..) : based on W3c recommendations
+
+    3. Event/Callback/Message Queue
+
+    4. Event-Loop
+
+    ---------------------------------------------------------
+
+
+
+
+     Limitations/complexities of plain-js
+      for front-end appln dev
+
+
+      1. browser compatability..
+      2. performance issues ( e.g DOM manipulation i.e crud)
+      3. memory management  ( e.g cleaning un-used DOM elements)
+      4. code organization is difficult
+      5. data-binding manual
+
+      etc.....
+
+    ----------------------------------------------------
+
+    solns
+
+
+    using third-party .js lib & F.ws
+
+
+     1. jQuery
+
+       limitations
+
+       ->   close to DOM.
+       
+
+    ----------------------------------------------------
+
+
+    MVC/MVVM based F.Ws with 2-way data-binding
+
+
+    -> AngularJS 1.x
+    -> Knockout
+    -> EmberJS
+    -> backbone
+    -> Maroionet
+
+    etc.............
+
+
+    UI component based F.Ws
+
+
+    -> DOJO
+    -> ExtJS from sencha  ( commericial )
+
+   ----------------------------------------------------
+
+
+   Component Based UI F.Ws
+
+
+   w3c ==> Web-Component spec ( draft )
+
+
+
+   ---------------------------------------------
+
+
+   React ==>  facebook
+
+   Angular ==> google
+
+   Vue
+
+   PolymerJS
+
+   etc.........
+
+
+
+
+
+
+
+
+

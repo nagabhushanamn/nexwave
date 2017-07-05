@@ -1,0 +1,99 @@
+
+
+---------------------------------------------------------
+
+  a. Abstraction/Interface/Front-End
+  
+  	 why we need ?
+  	 
+  	 --> easy to use/learn by dependent
+  	 --> for loose-coupling b/w dependent & dependency
+  	 --> to expose only essential features to other
+  
+  b. Encapsulation/Implementation/back-End
+  
+     -->  is implementation of what abstracted
+     
+      why we need ?
+      
+      	-> to hide complexity
+      	-> for security reasons
+      	
+  ---------------------------------------------------------
+  
+  
+  
+  How to implement Abs & Encap in java-lang ?
+  
+  
+  --> using access-modifiers
+  --> using packages
+  --> using accessor-methods ( set/get )
+  --> using class & Interfaces
+  --> using OO design patterns
+  
+  ---------------------------------------------------------
+  
+  
+  using access-modifiers
+  ------------------------
+  
+  
+  proj
+  
+  	 p1
+  	 
+  	   -A.java  ( target )
+  	   -B.java  extends A.java
+  	   -C.java
+  	   
+  	 p2
+  	 
+  	   -D.java extends A.java
+  	   -E.java  
+  
+  
+  
+		     --------------------------------------------------------------
+		     
+		     same-package                         | other-package
+		     ---------------------------------------------------------------
+		     
+		     same-class | sub-class | other-class | sub-class | other-class
+		     
+		     ----------------------------------------------------------------
+     
+  private       Y            N               N          N          N
+  
+  (     )       Y            Y               Y          N          N
+    
+  protected     Y            Y               Y          Y          N
+  
+  public        Y            Y               Y          Y          Y
+  
+  
+  ---------------------------------------------------------------------------
+  
+  
+  --> using accessor-methods ( set/get )
+  
+  		==> refer - code
+  
+  ----------------------------------------------------------------------------
+  
+  
+  
+  --> using class & Interfaces
+  
+  
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      	

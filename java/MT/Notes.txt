@@ -1,0 +1,78 @@
+
+
+  process  vs thread
+  ----------------------
+  
+     process
+     
+     	=> whole execution in OS
+     	=> have its own memory
+     	=> can communicate with other process thru FS,Sockets or IPC
+     	
+     Thread
+     
+     
+        ==> small independent execution within process
+        ==> they share heap-memory
+        
+        
+---------------------------------------------------------------
+
+
+   Advantages of MT in process
+   ---------------------------
+   
+   --> can utilize CPU maximum
+   --> can execute complex work quickly
+   --> multi-user support
+    
+    
+----------------------------------------------------------------
+
+
+How to implement Multi-Threading in java ?
+
+
+
+	using 'java.lang.Thread' class
+	
+	
+	
+	basic steps to bring new-thread in java-lang
+	----------------------------------------------
+	
+	--> create instance of 'java.lang.Thread' class
+	--> assign runnable-object( thread-work) to thread
+	--> start thread ==> new stack-memory allocated
+	
+	--> manage thread-life-cycle
+	
+-----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+        

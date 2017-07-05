@@ -1,0 +1,15 @@
+
+
+in .js-lang , can run functions in 2 ways
+
+a. sync
+b. async
+
+
+    many ways
+
+
+     => on event , every event-handler executes async
+     => using Promise API 
+     => using RxJS ( Reactive Extensions for JavaScript) API
+    

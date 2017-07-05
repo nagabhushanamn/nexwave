@@ -1,0 +1,197 @@
+
+
+  s/w appln
+  --------------------
+  
+  
+     a. application ==> process
+     b. datasource  ==> persist
+     
+     
+     A. application
+     
+         - Object Model
+         
+     B. datasource
+     
+     	   - file-system	
+     
+     	   - RDBMS products ( SQL based )
+     	   
+     	   		=> Relational/Entity Model
+     	   
+     	   - NoSQL ( e.g MongoDB ) 
+     	   
+ ----------------------------------------------------
+ 
+ 
+ 
+ bookshop
+ 
+ 	Publisher => id,name
+ 
+ 	Book      => isbn,name,price,author  
+ 	
+ 	Chapters  => (idx,isbn) , title
+ 	
+----------------------------------------------------------
+
+
+    publisher  ===> book     ==>  chapter
+ 	
+ 	 1                M  
+ 	 
+ 	                  1              M
+ 	                  
+---------------------------------------------------------- 	                              
+ 
+ 
+ 
+ 
+ Relational Model
+ 
+ 
+ 
+ Object Model
+ 
+ 
+ --------------------------------------------------------
+ 
+  
+     -------------------------------------------
+     
+     
+     ORM ( Object Relational Mapping )
+     
+     
+     -> using JDBC API
+     
+     
+     
+     basic steps to use JDBC API :-
+     
+     
+     1. Register 'JDBC-driver'
+     2. create connection with URL,user&password
+     
+     3. create JDBC statements with SQL lang
+     4. execute statements & process outcome.
+     
+     5. Handle SQLExeption(s)
+     6. Handle Txns if required
+     
+     7. close/release connection
+     
+     ------------------------------------------
+     
+     
+     
+     Relational Model
+     -------------------
+     
+     create database pm;
+     use pm;
+     
+     create table pm.PRODUCTS(
+     	id int primary key auto_increment,
+        name varchar(100),
+        price double,
+        makeDate date,
+        type int,
+        description varchar(250)
+     );
+     
+     
+     
+     ---------------------------------------------------------------------
+     
+     
+     
+     
+     
+     types of JDBC-Driver
+     ---------------------
+     
+     1. Type1  or JDBC-ODBC bridge  ( given by java-community , part of JDK)
+     2. Type2  
+     3. Type3  
+     4. Type4  or pure java-driver  ( from DBMS vendors )
+     
+     
+     ----------------------------------------------------------------------
+    
+     
+     
+     
+     complexities with JDBC API
+     ----------------------------
+     
+     -> connection management manual
+     -> too much code for simple operations
+     -> too many queries
+     -> code partially depends on DBMS product
+     -> association b/w tables need to be managed manually
+     -> no cache support for frequent data-sets
+     
+     ..............
+     
+    
+     
+     Solns:
+     
+       using ORM F.Ws
+       
+       
+        -> Hibernate   : Jboss Community
+        -> TopLink     : Oracle
+        -> iBatis      : Apache
+        -> EclipseLink : Eclipse community
+        -> JDO
+        ...........
+        
+        
+     -------------------------------------   
+     
+     
+     standard API for ORM
+     
+     
+     -> JPA 
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+      	       

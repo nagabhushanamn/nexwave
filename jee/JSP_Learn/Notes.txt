@@ -1,0 +1,10 @@
+
+
+
+  steps to create custom tag
+  ------------------------------
+  
+  
+   step-1: Tag Handler ( .java )
+   step-2: Tag Descriptor ( xml ==> .tld )
+   step-3: import tag lib to JSP page  

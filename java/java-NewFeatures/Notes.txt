@@ -1,0 +1,16 @@
+
+
+
+
+  Java appln dev-style
+  -----------------------------
+  
+  " component & container " style
+  
+  
+  
+  component ==> Appln Logic  ( we write )
+  container ==> Infrastructure Logic to run components on JVM ( from vendor/community )
+  
+  
+  -------------------------------------------------------------- 

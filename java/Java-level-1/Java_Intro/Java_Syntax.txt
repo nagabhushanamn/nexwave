@@ -1,0 +1,361 @@
+
+
+
+Java_Syntax
+---------------
+
+--------------------------------------------------------------------
+
+1. project
+
+	|
+	|
+	|---p1 ( .java / .class )
+	|
+	|---p2
+
+	
+--------------------------------------------------------------------
+
+2. Java File
+
+
+    PublicType.java
+	---------------------------------------
+	|
+	| // package dec ( 1 )
+	|
+	| // import statements ( n )
+	|
+	| // public type ( class | interface | enum | Annotation ) ( 1 )  => must
+	|
+	| // default types ( n )
+	|
+	|
+	|
+	|---------------------------------------
+	
+
+--------------------------------------------------------------------
+
+3.  package dec
+
+
+	why we need ?
+	
+	
+    => to avoid type-name collisions
+    => for better maintainance
+
+
+	syntax
+	
+	package root;
+	        root.sub1.sub2;
+	        
+	        
+	recommended guideline to write package dec
+	
+	e.g
+	
+		
+		public class Employee{}
+		
+		
+		package c-type.c-name.p-name.m-name;
+		
+		e.g
+		
+		
+		package org.wissen.em.emp;
+		
+		
+		          
+--------------------------------------------------------------------
+
+
+4.  import statement
+
+
+	proj
+	
+		p1 => A.java , B.java
+		p2 => C.java , D.java
+		   => p21 => E.java
+		p3 => E.java   
+
+
+	e.g
+	
+		package p1;
+		
+		import p2.C;
+		import p2.D;
+		
+		import p2.*;
+		import p2.p21.*;
+		import p3.*;
+		
+		
+		public class A{
+			B b;
+			C c;
+			p3.E e;
+		}
+
+          
+--------------------------------------------------------------------
+
+ 
+   what is object ?
+   
+   
+   ==> data,info,attr,properties  : State
+   ==> work,func,method           : Behavior
+   ==> addr,ref,loc               : Identify
+   
+   obj ===> SBI
+   
+   
+   
+   what is class ?
+   
+   ==> template to create similar objects
+   
+   
+   
+   
+   
+   class  ==> object(s)
+   
+   
+    
+--------------------------------------------------------------------
+
+
+OO concepts
+-------------
+
+
+  a. Abstraction/Interface/Front-End
+  
+  	 why we need ?
+  	 
+  	 --> easy to use/learn by dependent
+  	 --> for loose-coupling b/w dependent & dependency
+  	 --> to expose only essential features to other
+  
+  b. Encapsulation/Implementation/back-End
+  
+     -->  is implementation of what abstracted
+     
+      why we need ?
+      
+      	-> to hide complexity
+      	-> for security reasons
+      	
+  c. Inheritance
+  
+     
+      ==> inherit common state/behav from more generalized to specialized classes
+      
+        why we need ?
+        
+        -> re-use
+        -> easy to extend
+        -> easy to introduce new-behav
+        
+   d. Polymophism
+   
+       why we need ?
+   
+   		to satisfy "Closed for Modification & Open Foe Extension" OO principle     
+     
+     
+ -----------------------------------------------------------------------    	
+      	
+      	
+      	
+  	class-syntax
+  	-------------
+      	
+	      	
+	  _______  ___________class Name [extends] BaseClass {
+	      	           			     [implements] I1,I2,....
+	  [public] [abstract]	      	
+	  [      ] [strictfp] //state-def ==> variables / data-structures
+			   [final]	  // constructor(s)
+				      	  // behavior(s)
+				      	  // blocks	
+				      	  // inner-class
+	 --------------------			      	
+	 [public]	[static]	
+	 [protected]		      	
+	 [private]		      	}
+	 [       ]      	
+	    
+
+-----------------------------------------------------------------------    
+
+	
+  	interface-syntax
+  	----------------
+  	
+	  	
+	 _________ 	_______interface Name [extends] I1,I2{
+					  		public static final DataType VAR_NAME=val/obj;  // cosntant-state
+					  		public abstract ReturnType methodName([input]); // abstract-behav
+					  		
+					  		// Java-8
+					  		
+					  		public default ReturnType m(){}
+					  			
+					  		
+					  		public static ReturnType mm(){}
+					  		
+					  	}
+			      	
+
+-----------------------------------------------------------------------  
+
+ 	enum-syntax
+ 	--------------
+ 	
+ 	
+ 	____ enum Gender{
+ 		MALE,FEMALE
+ 	}
+
+	e.g 	
+ 	
+ 		class Person{
+ 			Gender gender; ( MALE | FEMALE )
+ 		}
+
+-----------------------------------------------------------------------  
+
+	Annotation-syntax
+	-------------------
+	
+	
+	
+		@inerface Name{
+			// props
+			DataType propName();
+		}
+	  
+---------------------------------------------------------------------------  
+
+
+  variable Syntax
+  -------------------
+  
+  
+  DataType
+  
+  	-> simple/primitives ==> values
+  	-> complex/references ==> objects
+  	
+  	
+  	class Employee{
+  	    static final String COMP_NAME="Wissen";
+  		static String tnrName;  class var
+  		int id;  // obj's var
+  		void m(){
+  			int loc;
+  		}
+  	}
+  
+	  	
+	  ________	________ DataType varName=[value/object's ref];
+	
+			    [static]
+			    [final ]
+			    [volatile]
+			    [transient]
+	
+	   local-var
+	 ------------------------
+	
+	  -Nil-      [final] 
+	
+	
+	
+---------------------------------------------------------------------------  
+
+
+
+  constructor Syntax
+  -------------------
+  
+  
+  	in java , obj creation is 2 step process
+  	
+  	-> dynamic memory allocation from heap  ==> 'new'
+  	-> initialize that memory with obj's default/given data ==> 'constructor'
+  	
+  	
+  	syntax
+  	-------
+  	
+  	
+  	_____ _____ _____ ClassName([args])[throws]CheckedException{
+  	
+  	       -Nil- -Nil-
+  	                      // initialization logic
+  	 
+  	                   }
+
+
+---------------------------------------------------------------------------  
+
+
+  method-syntax
+  ----------------
+  
+  
+  
+  
+  		________		_____________ReturnType methodName([args])[throws]CheckedException{
+  				
+						  	[static]			// A,R,L and assignment 
+						  	[final]				// conditional statements
+						  	[synchronized]		// looping
+						    [strictfp]			// invoking other behav
+						  	[abstract]				
+						  	[native]			[return] [result]
+						  				
+			  				}		
+  
+  	
+---------------------------------------------------------------------------------------
+
+
+
+java - Naming Conventions
+--------------------------
+
+
+  keywords         ==> lower-case
+  
+  package-names    ==> lower-case
+  
+  Type-Names       ==> pascal-case  e.g A___B___C___
+  
+  var/method names ==> camel-case  e.g _____A____B____
+  
+  constant-names   ==> upper-case
+
+
+
+
+
+  
+
+
+
+
+
+
+
+	

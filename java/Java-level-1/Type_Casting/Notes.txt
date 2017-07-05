@@ -1,0 +1,12 @@
+
+
+
+  1. Primitive casting
+  
+  		1. implicit
+  		2. explicit
+  
+  2. Reference casting
+  
+  		1. implicit
+  		2. explicit

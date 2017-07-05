@@ -1,0 +1,62 @@
+
+
+
+ till ES5, .js lang is not module based lang.
+
+
+ problems with .js-dev without module-standards & loaders
+
+
+ --> global naming collisions
+ --> dependency module loading hierarchy is diffult
+
+
+ --------------------------------------------------
+
+ solution
+
+    --> module standards & loaders
+
+
+
+    from third-parties
+
+     a. AMD ( Async Module Definition )
+     b. commonJS
+     c. UMD
+     ........
+
+     from ECMAScript community
+
+     a. ES6 Modules
+
+-----------------------------------------------------
+
+
+commonJS module standard
+
+
+-> every .js file is  module
+-> all var/function in .js file are privat5e to that module
+-> to export any meber to other modules , use "module.exports"
+-> to import any module , use 'require()'
+-> we can group related .js modules into packages with descriptor ( package.json )
+
+
+
+Node.js already implemented this standard
+
+-------------------------------------------------------
+
+
+
+ES6 Modules
+
+
+
+-> every .js file is  module
+-> all var/function in .js file are privat5e to that module
+-> to export any meber to other modules , use "export"
+-> to import any module , use 'import'
+-> we can group related .js modules into packages with descriptor ( package.json )
+

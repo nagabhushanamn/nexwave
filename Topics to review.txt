@@ -1,0 +1,20 @@
+As discussed, please cover the following topics in-depth if not done already.
+ 
+1. Equals/hashCode: The contract between the two. What happens if
+  a. hashcode is not implemented
+  b. equals is not implemented
+  c. hashcode method always returns 10. 
+2. Make a class immutable. How to handle mutable attributes like list or date. Using unmodifiableCollection or copy of object. Understand "final" and how it applies to values and references. e.g. a final list object can still be modified using add/remove methods.
+3. Design interfaces, classes and services. sample problems : online shopping application, train reservation system. 
+4. Implement a producer-consumer queue using wait/notify. 
+5. ExecutorService. Use thread pool in problem. E. G. Process a number of files, Web crawler. 
+6. Common algorithms and their applications : binary search, merge sort. 
+7. Understanding of Volatile variables 
+8. Concurrent HashMap - differences with normal hashmat, synchronised hashmap. 
+ 
+Also, please ask everyone to install the following plugins in their Eclipse IDE and understand what they do:
+EclEmma for code coverage
+FindBugs - Static code analysis.
+InfiniTest - Test Driven Development
+ObjectAid - Class Diagrams
+JaCoCo - Maven build coverage

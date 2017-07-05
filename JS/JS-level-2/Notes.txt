@@ -1,0 +1,30 @@
+
+
+ ES6
+ --------------------------------
+
+
+ new syntax
+
+ 1. let,const kewords with block-scope
+ 2. function default params
+ 3. function rest param
+ 4. arrow-function 
+ 5. destructuring
+ 6. string interpolation
+ 7. spread opearator
+ 9. object-literal enhancements
+ 8. symbol data-type
+ 10. Iterators
+ 11. for of loop
+
+ ------------------------------------
+ OOP
+ 12 - class 
+ --------------------------------------
+ JS - modules
+ --------------------------------------
+
+
+
+ 

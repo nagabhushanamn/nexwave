@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean class="com.mts.spring.BPP"></bean>
+
+	<bean id="txrService" class="com.mts.service.TxrServiceImpl" 
+	      init-method="init" 
+	      destroy-method="destroy">
+		<constructor-arg ref="accountRepository" />
+		<property name="txrType" value="IMPS" />
+	</bean>
+	
+	<bean id="txrService2" class="com.mts.service.TxrServiceImpl" 
+	      init-method="init" 
+	      destroy-method="destroy"
+	      p:txrType="RTGS"
+	      c:accountRepository-ref="accountRepository">
+		
+	</bean>
+
+
+	<bean id="accountRepository"
+	      class="com.mts.repository.JdbcAccountRepository" 
+	      scope="singleton">
+		<constructor-arg ref="dataSource" />
+	</bean>
+
+
+
+
+
+</beans>

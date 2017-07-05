@@ -1,0 +1,165 @@
+
+
+
+ data_structure
+ ------------------
+ 
+ 
+   ==> memory to do CRUDSS operations
+   
+   
+   
+   types
+   
+   1. primitives ==> hold sinle data-element
+   2. secondary
+   
+      a. linear
+      
+      	  -> Array
+      	  
+      	  -> LinkedList
+      
+      b. non-linear
+      
+      
+ ---------------------------------------------------------
+ 
+ Collection F.W
+ -----------------
+ 
+ 
+  ==> defined/proven ds implementation in java-lang
+  
+  
+  Benefits of the Java Collections Framework
+  
+  -> Reduces programming effort: 
+  -> Increases program speed and quality
+  -> Allows interoperability among unrelated APIs
+  -> Reduces effort to learn and to use new APIs
+  -> Reduces effort to design new APIs: 
+  
+  ---------------------------------------------------
+  
+  
+  
+  A. List
+  
+  
+     -> ordered
+     -> index based
+     -> can hold duplicate elements
+     
+  B. Set
+  
+  	 -> unique elements
+  	 -> No Index
+  	 
+  C.  Map
+  
+      --> object mapped by user-identity
+      
+ ----------------------------------------------------
+ 
+ Implementations
+ -----------------
+
+ 
+       1. List
+       
+       
+       	  a. Vector     : dynamic-array -> thread-safe
+       	     i. Stack   : LIFO
+       	      
+       	  b. ArrayList  : dynamic-array
+       	  c. LinkedList : DLL
+       	  
+       	  
+      2. Set
+      
+      	  a. TreeSet    : tree    -> sorted
+      	  b. HashSet    : hastable  : un-ordered
+      	  c. LinkedHashSet : DLL + Hashtable  : ordered
+      	   	  
+      	   	  
+      3. Map
+      
+      	 
+      	  a. TreeMap    : tree    -> sorted
+      	  b. HashMap    : hastable  : un-ordered
+      	  c. LinkedHashMap : DLL + Hashtable  : ordered
+      	  d. Hashtable  : thread-safe
+      	  
+      4. Queue
+      
+		  a. LinkedList
+		  b. PriorityQueue
+		  c. Dequeue
+		  ..
+		  
+		        		 	  
+      	  	   	  
+       -----------------------------------------------------
+       
+       
+       before JDK 1.4
+       
+       Vector   & Hashtable     ==> thread-safe
+           
+ 
+      	    
+       in JDK 1.4 >
+       
+       ArrayList,LinkedList  ==> not-thread-safe...
+       
+       
+       
+       //----------------------------------------------------------
+       
+       concurrent-collections
+       
+       1. copy-on-write collections
+       
+       		- CopyOnWriteArrayList 
+       		-
+       2.  Compare-And-Swap or CAS collections
+       
+       3.  concurrent collections using a special lock object 		
+       
+       
+           - ConcurrentHashMap
+           - BlockingQueue
+           
+              
+        
+  
+ 
+ 
+       -------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      
+       
+   
