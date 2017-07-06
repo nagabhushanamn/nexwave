@@ -1,0 +1,79 @@
+
+
+
+data-binding
+---------------
+
+  a. interpolation binding
+
+      in template :  {{}}
+
+  b. property/attribute binding    
+
+     <element [prop]=""/>
+
+  c. Event binding   
+
+     <element (event-name)="" />
+
+
+-----------------------------------------
+
+
+directives
+
+ => .js obj/func will provide data/behav to html template
+
+
+ 1. component   ==> directive with template
+ 2. structural directive ==> to modify exiting template i.e add/delete/update ing DOM      
+
+    e.g *ngIf , *ngFor
+
+ 3. attribute directive
+
+    e.g ngClass   
+
+-------------------------------------------    
+
+Pipes
+
+
+ => to tranform model properties for template
+
+
+---------------------------------------------
+
+
+NG - components data-flow
+
+
+-----------------------------------------------
+
+
+<html>
+    <head></head>
+    <body>
+
+        <div>
+           <button onclick="handler()">+1</button>
+           <span>(count)</span>
+        </div>
+
+    </body>
+</html>
+
+
+----------------------------------------------    
+
+
+
+
+
+
+
+
+
+
+
+
